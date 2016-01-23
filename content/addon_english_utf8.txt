@@ -1,0 +1,720 @@
+﻿"lang"
+{
+	"Language"		"English"
+	"Tokens"
+	{		
+	    "game_mode_15"				"Arne's Element TD"
+		"addon_game_name"			"Arne's Element TD"
+
+		"QuestKill1" "Wave 1 - Pigs (%quest_current_value%/%quest_target_value%)"
+		"QuestKill2" "Wave 2 - Frogs (%quest_current_value%/%quest_target_value%)"
+		"QuestKill3" "Wave 3 - Yaks (%quest_current_value%/%quest_target_value%)"
+		"QuestKill4" "Wave 4 - Mechs (%quest_current_value%/%quest_target_value%)"
+		"QuestKill5" "Wave 5 - Badgers (%quest_current_value%/%quest_target_value%)"
+		"QuestKill6" "Wave 6 - Stumps (%quest_current_value%/%quest_target_value%)"
+		"QuestKill7" "Wave 7 - Tegus (%quest_current_value%/%quest_target_value%)"
+		"QuestKill8" "Wave 8 - Itsies (%quest_current_value%/%quest_target_value%)"
+		"QuestKill9" "Wave 9 - Duskiess (%quest_current_value%/%quest_target_value%)"
+		"QuestKill10" "Wave 10 - Dogs (%quest_current_value%/%quest_target_value%)"
+		"QuestKill11" "Wave 11 - Sheeps (%quest_current_value%/%quest_target_value%)"
+		"QuestKill12" "Wave 12 - Livery Llamas (%quest_current_value%/%quest_target_value%)"
+		"QuestKill13" "Wave 13 - Gnome Pigs (%quest_current_value%/%quest_target_value%)"
+		"QuestKill14" "Wave 14 - Butch Dogs (%quest_current_value%/%quest_target_value%)"
+		"QuestKill15" "Wave 15 - Captain Bamboos (%quest_current_value%/%quest_target_value%)"
+		"QuestKill16" "Wave 16 - Imps (%quest_current_value%/%quest_target_value%)"
+		"QuestKill17" "Wave 17 - Mighty Chickens (%quest_current_value%/%quest_target_value%)"
+		"QuestKill18" "Wave 18 - Bajies (%quest_current_value%/%quest_target_value%)"
+		"QuestKill19" "Wave 19 - Arneyb Rabbits (%quest_current_value%/%quest_target_value%)"
+		"QuestKill20" "Wave 20 - Shagbarks (%quest_current_value%/%quest_target_value%)"
+		"QuestKill21" "Wave 21 - Deathrippers (%quest_current_value%/%quest_target_value%)"
+		"QuestKill22" "Wave 22 - Lockjaws (%quest_current_value%/%quest_target_value%)"
+		"QuestKill23" "Wave 23 - Trapjaws (%quest_current_value%/%quest_target_value%)"
+		"QuestKill24" "Wave 24 - Mechjaws (%quest_current_value%/%quest_target_value%)"
+		"QuestKill25" "Wave 25 - Corsairs (%quest_current_value%/%quest_target_value%)"
+		"QuestKill26" "Wave 26 - Red Kita (%quest_current_value%/%quest_target_value%)"
+		"QuestKill27" "Wave 27 - Golden Skipper (%quest_current_value%/%quest_target_value%)"
+		"QuestKill28" "Wave 28 - IG Dragon (%quest_current_value%/%quest_target_value%)"
+		"QuestKill29" "Wave 29 - Red Vigilante Fox (%quest_current_value%/%quest_target_value%)"
+		"QuestKill30" "Wave 30 - Magic Carpet (%quest_current_value%/%quest_target_value%)"
+		"QuestKill31" "Wave 31 - Bookwyrm (%quest_current_value%/%quest_target_value%)"
+		"QuestKill32" "Wave 32 - Shark (%quest_current_value%/%quest_target_value%)"
+		"QuestKill33" "Wave 33 - Zombie (%quest_current_value%/%quest_target_value%)"
+		"QuestKill34" "Wave 34 - Huntling (%quest_current_value%/%quest_target_value%)"
+		"QuestKill35" "Wave 35 - White Fox (%quest_current_value%/%quest_target_value%)"
+		"QuestKill36" "Wave 36 - Jumo (%quest_current_value%/%quest_target_value%)"
+		"QuestKill37" "Wave 37 - Baekho (%quest_current_value%/%quest_target_value%)"
+		"QuestKill38" "Wave 38 - Lilnova (%quest_current_value%/%quest_target_value%)"
+		"QuestKill39" "Wave 39 - Amphibian Kid (%quest_current_value%/%quest_target_value%)"
+		"QuestKill40" "Wave 40 - Wraith (%quest_current_value%/%quest_target_value%)"
+
+		"QuestLives" "Lives remaining (%quest_current_value%/%quest_target_value%)"
+
+	    // ******************** HEROES ********************
+		"npc_dota_hero_kunkka"                                                            "Builder"
+
+		// ******************** UNITS ********************
+		"creep_wave1"                                                                    "Pig"
+		"creep_wave2"                                                                    "Frog"
+		"creep_wave3"                                                                    "Yak"
+		"creep_wave4"                                                                    "Mech"
+		"creep_wave5"                                                                    "Badger"
+		"creep_wave6"                                                                    "Stump"
+		"creep_wave7"                                                                    "Tegu"
+		"creep_wave8"                                                                    "Itsy"
+		"creep_wave9"                                                                    "Duskie"
+		"creep_wave10"                                                                    "Dog"
+		"creep_wave11"                                                                    "Sheep"
+		"creep_wave12"                                                                    "Livery Llama"
+		"creep_wave13"                                                                    "Gnome Pig"
+		"creep_wave14"                                                                    "Butch Dog"
+		"creep_wave15"                                                                    "Captain Bamboo"
+		"creep_wave16"                                                                    "Imp"
+		"creep_wave17"                                                                    "Mighty Chicken"
+		"creep_wave18"                                                                    "Bajie"
+		"creep_wave19"                                                                    "Arneyb Rabbit"
+		"creep_wave20"                                                                    "Shagbark"
+		"creep_wave21"                                                                    "Deathripper"
+		"creep_wave22"                                                                    "Lockjaw"
+		"creep_wave23"                                                                    "Trapjaw"
+		"creep_wave24"                                                                    "Mechjaw"
+		"creep_wave25"                                                                    "Corsair"
+		"creep_wave26"                                                                    "Red Kita"
+		"creep_wave27"                                                                    "Golden Skipper"
+		"creep_wave28"                                                                    "IG Dragon"
+		"creep_wave29"                                                                    "Red Vigilante Fox"
+		"creep_wave30"                                                                    "Magic Carpet"
+		"creep_wave31"                                                                    "Bookwyrm"
+		"creep_wave32"                                                                    "Shark"
+		"creep_wave33"                                                                    "Zombie"
+		"creep_wave34"                                                                    "Huntling"
+		"creep_wave35"                                                                    "White Fox"
+		"creep_wave36"                                                                    "Jumo"
+		"creep_wave37"                                                                    "Baekho"
+		"creep_wave38"                                                                    "Lilnova"
+		"creep_wave39"                                                                    "Amphibian Kid"
+		"creep_wave40"                                                                    "Wraith"
+		"creep_wave50"                                                                    "Vaal"
+		"creep_wave51"                                                                    "Vaal - 2"
+		"creep_wave52"                                                                    "Vaal - 3"
+		"creep_wave53"                                                                    "Vaal - 4"
+		"creep_wave54"                                                                    "Vaal - 5"
+		"creep_wave55"                                                                    "Vaal - 6"
+		"creep_wave56"                                                                    "Vaal - 7"
+		"creep_wave57"                                                                    "Vaal - 8"
+		"creep_wave58"                                                                    "Vaal - 9"
+		"creep_wave59"                                                                    "Vaal - 10"
+
+		"tower"                                                                           "Arrow Tower"
+		"tower_tier2"                                                                     "Advanced Arrow Tower"
+		"tower_tier3"                                                                     "Super Arrow Tower"
+		"tower_cannon"                                                                    "Cannon Tower"
+		"tower_cannon2"                                                                   "Advanced Cannon Tower"
+		"tower_fire"                                                                      "Fire Tower"
+		"tower_water"                                                                     "Water Tower"
+		"tower_nature"                                                                    "Nature Tower"
+		"tower_earth"                                                                     "Earth Tower"
+		"tower_light"                                                                     "Light Tower"
+		"tower_dark"                                                                      "Dark Tower"
+
+		"tower_fire_light_lightning"                                                      "Lightning Tower"
+		"tower_water_light_speedaura"                                                     "Speed Aura Tower"
+		"tower_dark_nature_multishot"                                                     "Multi-Shot Tower"
+		"tower_fire_dark_nevermore"                                                       "Nevermore Tower"
+		"tower_earth_light_damageaura"                                                    "Damage Aura Tower"
+		"tower_earth_dark_bash"                                                           "Bash Tower"
+		"tower_water_dark_poison"                                                         "Poison Tower"
+		"tower_fire_nature_sniper"                                                        "Sniper Tower"
+		"tower_water_earth_glaive"                                                        "Glaive Tower"
+		"tower_fire_earth_gold"                                                           "Gold Tower"
+		"tower_earth_nature_critical"                                                     "Critical Tower"
+		"tower_water_nature_frost"                                                        "Frost Tower"
+		"tower_light_dark_impetus"                                                        "Impetus Tower"
+		"tower_fire_water_decrepify"                                                      "Decrepify Tower"
+		"tower_light_nature_life"                                                         "Life Tower"
+
+		"tower_fire2_light2_zeus"                                                         "Zeus Tower"
+		"tower_water2_light2_speedaura2"                                                  "Advanced Speed Tower"
+		"tower_dark2_nature2_multishot2"                                                  "Medusa Tower"
+		"tower_fire2_dark2_nevermore2"                                                    "Desolate Tower"
+		"tower_earth2_light2_damageaura2"                                                 "Vengeance Tower"
+		"tower_earth2_dark2_bash2"                                                        "Time Lock Tower"
+		"tower_water2_dark2_poison2"                                                      "Venomous Tower"
+		"tower_fire2_nature2_sniper2"                                                     "Super Sniper Tower"
+		"tower_water2_earth2_glaive2"                                                     "Luna Tower"
+		"tower_fire2_earth2_gold2"                                                        "Wealth Tower"
+		"tower_earth2_nature2_critical2"                                                  "Assassin Tower"
+		"tower_water2_nature2_frost2"                                                     "Winter Tower"
+		"tower_light2_dark2_impetus2"                                                     "Super Impetus Tower"
+		"tower_fire2_water2_decrepify2"                                                   "Pugna Tower"
+
+		"fire_shop"                                                                       "Fire God"
+		"water_shop"                                                                      "Water God"
+		"nature_shop"                                                                     "Nature God"
+		"earth_shop"                                                                      "Earth God"
+		"light_shop"                                                                      "Light God"
+		"dark_shop"                                                                       "Dark God"
+
+		"city_center"                                                                     "City Center"
+		"city_center_tier2"                                                               "City Center Tier 2"
+		"research_center"                                                                 "Research Center"
+		"dragon_tower"                                                                    "Dragon Tower"
+		"dark_tower"                                                                      "Dark Tower"
+		"wall"                                                                            "Wall"
+
+		// ******************** ABILITY MODIFIERS ********************
+		"DOTA_Tooltip_modifier_builder_repairing"                                         "Repairing"
+		"DOTA_Tooltip_modifier_builder_repairing_Description"                             "The builder is repairing"
+
+		"DOTA_Tooltip_modifier_repairing_building"                                        "Repairing"
+		"DOTA_Tooltip_modifier_repairing_building_Description"                            "This building is being repaired by nearby builders"
+
+		"DOTA_Tooltip_modifier_great_cleave_datadriven"                                   "Cleave"
+		"DOTA_Tooltip_modifier_great_cleave_datadriven_Description"                       ""
+
+		"DOTA_Tooltip_ability_sven_great_cleave_firetower"                                "Fire Tower Cleave"
+		"DOTA_Tooltip_ability_sven_great_cleave_firetower_Description"                    ""
+		"DOTA_Tooltip_ability_sven_great_cleave_firetower_great_cleave_radius"            "Fire cleave radius:"
+		"DOTA_Tooltip_ability_sven_great_cleave_firetower_great_cleave_damage"            "Fire cleave damage:"
+
+		"DOTA_Tooltip_ability_sven_great_cleave_watertower"                               "Water Tower Cleave"
+		"DOTA_Tooltip_ability_sven_great_cleave_watertower_Description"                   ""
+		"DOTA_Tooltip_ability_sven_great_cleave_watertower_great_cleave_radius"           "Water cleave radius:"
+		"DOTA_Tooltip_ability_sven_great_cleave_watertower_great_cleave_damage"           "Water cleave damage:"
+
+		"DOTA_Tooltip_ability_sven_great_cleave_earthtower"                               "Earth Tower Cleave"
+		"DOTA_Tooltip_ability_sven_great_cleave_earthtower_Description"                   ""
+		"DOTA_Tooltip_ability_sven_great_cleave_earthtower_great_cleave_radius"           "Earth cleave radius:"
+		"DOTA_Tooltip_ability_sven_great_cleave_earthtower_great_cleave_damage"           "Earth cleave damage:"
+
+		"DOTA_Tooltip_modifier_guardian_angel"                                            "Guardian Angel"
+		"DOTA_Tooltip_modifier_guardian_angel_Description"                                "Physical immunity"
+
+		"DOTA_Tooltip_modifier_inner_beast1"                                              "Speed Aura 1"
+		"DOTA_Tooltip_modifier_inner_beast1_Description"                                  "Attack speed +40"
+
+		"DOTA_Tooltip_modifier_inner_beast1_buff"                                         "Speed Aura 1"
+		"DOTA_Tooltip_modifier_inner_beast1_buff_Description"                             "Attack speed +40"
+
+		"DOTA_Tooltip_modifier_inner_beast2_buff"                                         "Speed Aura 2"
+		"DOTA_Tooltip_modifier_inner_beast2_buff_Description"                             "Attack speed +60"
+
+		"DOTA_Tooltip_modifier_dark_lord_presence"                                        "Dark Lord Aura 1"
+		"DOTA_Tooltip_modifier_dark_lord_presence_Description"                            "Armour reduction -3"
+
+		"DOTA_Tooltip_modifier_dark_lord_presence2"                                       "Dark Lord Aura 2"
+		"DOTA_Tooltip_modifier_dark_lord_presence2_Description"                           "Armour reduction -6"  
+
+		"DOTA_Tooltip_modifier_command_aura_friendly_datadriven"                          "Damage Aura 1"
+		"DOTA_Tooltip_modifier_command_aura_friendly_datadriven_Description"              "Bonus damage 20%%"
+
+		"DOTA_Tooltip_modifier_command_aura_friendly_datadriven2"                         "Damage Aura 2"
+		"DOTA_Tooltip_modifier_command_aura_friendly_datadriven2_Description"             "Bonus damage 30%%"
+
+		"DOTA_Tooltip_modifier_time_lock_stun_datadriven"                                 "Bash"
+		"DOTA_Tooltip_modifier_time_lock_stun_datadriven_Description"                     "Bashed for 2 seconds"
+
+		"DOTA_Tooltip_modifier_poison_sting_debuff_datadriven"                            "Poison"
+		"DOTA_Tooltip_modifier_poison_sting_debuff_datadriven_Description"                "Poisoned for 5 seconds"
+
+		"DOTA_Tooltip_modifier_blue_dragon_datadriven"                                    "Blue Dragon"
+		"DOTA_Tooltip_modifier_blue_dragon_datadriven_Description"                        ""
+
+		"DOTA_Tooltip_modifier_splash_attack_datadriven"                                  "Splash Attack Datadriven"
+		"DOTA_Tooltip_modifier_splash_attack_datadriven_Description"                      ""
+
+		"DOTA_Tooltip_modifier_frost_breath_attack_datadriven"                            "Frost Breath Attack"
+		"DOTA_Tooltip_modifier_frost_breath_attack_datadriven_Description"                ""
+
+		"DOTA_Tooltip_modifier_frost_breath_slow_datadriven"                              "Frost Breath Slow"
+		"DOTA_Tooltip_modifier_frost_breath_slow_datadriven_Description"                  ""
+
+		"DOTA_Tooltip_modifier_frost_breath_slow_datadriven2"                             "Frost Breath Slow 2"
+		"DOTA_Tooltip_modifier_frost_breath_slow_datadriven2_Description"                 ""
+
+		"DOTA_Tooltip_modifier_decrepify_enemy"                                           "Decrepify"
+		"DOTA_Tooltip_modifier_decrepify_enemy_Description"                               "Take increased magic damage"
+
+		"DOTA_Tooltip_modifier_on_tower_count_life"                                       "Heal"
+		"DOTA_Tooltip_modifier_on_tower_count_life_Description"                           "Can increase number of lives"
+
+		// ******************** ABILITIES ********************
+		// <b><font color='#eedd44'>Requires:\n - BuildingName</font></b>\n
+		"DOTA_Tooltip_ability_train_city_center_tier2"                                    "Upgrade to Tier 2"
+		"DOTA_Tooltip_ability_train_city_center_tier2_Description"                        "Allows for the construction of Dragon Towers and Ultimate research"
+		"DOTA_Tooltip_ability_train_city_center_tier2_build_time"                         "BUILD TIME:"
+		"DOTA_Tooltip_ability_train_city_center_tier2_gold_cost"                          "GOLD COST:"
+		"DOTA_Tooltip_ability_train_city_center_tier2_lumber_cost"                        "LUMBER COST:"
+
+		"DOTA_Tooltip_ability_zuus_arc_lightning_custom"                                  "Arc Lightning"
+		"DOTA_Tooltip_ability_zuus_arc_lightning_custom_Description"                      "Hurls a bolt of lightning that leaps through nearby enemy units."
+		"DOTA_Tooltip_ability_zuus_arc_lightning_custom_jump_count"                       "JUMPS:"
+
+		"DOTA_Tooltip_ability_tower_speed_aura1"                                          "Speed Aura 1"
+		"DOTA_Tooltip_ability_tower_speed_aura1_Description"                              "Increase nearby allies attack speed by 40"
+
+		"DOTA_Tooltip_ability_tower_speed_aura2"                                          "Speed Aura 2"
+		"DOTA_Tooltip_ability_tower_speed_aura2_Description"                              "Increase nearby allies attack speed by 60"
+
+		"DOTA_Tooltip_ability_tower_nevermore"                                            "Dark Lord Aura 1"
+		"DOTA_Tooltip_ability_tower_nevermore_Description"                                "Decrease nearby enemies armour by 3"
+		"DOTA_Tooltip_ability_tower_nevermore_presence_armor_reduction"                   "Armour reduction:"
+		"DOTA_Tooltip_ability_tower_nevermore_presence_radius"                            "Radius:"
+
+		"DOTA_Tooltip_ability_tower_nevermore2"                                           "Dark Lord Aura 2"
+		"DOTA_Tooltip_ability_tower_nevermore2_Description"                               "Decrease nearby enemies armour by 6"
+		"DOTA_Tooltip_ability_tower_nevermore2_presence_armor_reduction"                  "Armour reduction:"
+		"DOTA_Tooltip_ability_tower_nevermore2_presence_radius"                           "Radius:"
+
+		"DOTA_Tooltip_ability_tower_damage_aura"                                          "Damage Aura 1"
+		"DOTA_Tooltip_ability_tower_damage_aura_Description"                              "Increase nearby allies damage by 20%%"
+		"DOTA_Tooltip_ability_tower_damage_aura_bonus_damage_pct"                         "Bonus damage %:"
+		"DOTA_Tooltip_ability_tower_damage_aura_aura_radius"                              "Radius:"
+
+		"DOTA_Tooltip_ability_tower_damage_aura2"                                         "Damage Aura 2"
+		"DOTA_Tooltip_ability_tower_damage_aura2_Description"                             "Increase nearby allies damage by 30%%"
+		"DOTA_Tooltip_ability_tower_damage_aura2_bonus_damage_pct"                        "Bonus damage %:"
+		"DOTA_Tooltip_ability_tower_damage_aura2_aura_radius"                             "Radius:"
+
+		"DOTA_Tooltip_ability_tower_multishot"                                            "Multi-Shot"
+		"DOTA_Tooltip_ability_tower_multishot_Description"                                "Hits multiple targets"
+		"DOTA_Tooltip_ability_tower_multishot_damage_modifier"                            "Damage reduction percentage:"
+		"DOTA_Tooltip_ability_tower_multishot_damage_modifier_tooltip"                    "Damage percentage:"
+		"DOTA_Tooltip_ability_tower_multishot_arrow_count"                                "Extra Targets:"
+		"DOTA_Tooltip_ability_tower_multishot_total_arrow_count"                          "Max Targets:"
+		"DOTA_Tooltip_ability_tower_multishot_range"                                      "Range:"
+		"DOTA_Tooltip_ability_tower_multishot_projectile_speed"                           "Projectile Speed:"
+
+		"DOTA_Tooltip_ability_tower_bash"                                                 "Bash"
+		"DOTA_Tooltip_ability_tower_bash_Description"                                     "Chance to bash enemies"
+		"DOTA_Tooltip_ability_tower_bash_duration"                                        "Duration:"
+		"DOTA_Tooltip_ability_tower_bash_chance_pct"                                      "Chance:"
+
+		"DOTA_Tooltip_ability_tower_bash2"                                                "Bash 2"
+		"DOTA_Tooltip_ability_tower_bash2_Description"                                    "Good chance to bash enemies"
+		"DOTA_Tooltip_ability_tower_bash2_duration"                                       "Duration:"
+		"DOTA_Tooltip_ability_tower_bash2_chance_pct"                                     "Chance:"
+
+		"DOTA_Tooltip_ability_tower_poison"                                               "Poison"
+		"DOTA_Tooltip_ability_tower_poison_Description"                                   "Poisons enemy"
+		"DOTA_Tooltip_ability_tower_poison_duration"                                      "Duration:"
+		"DOTA_Tooltip_ability_tower_poison_damage"                                        "Damage per tick:"
+		"DOTA_Tooltip_ability_tower_poison_movement_speed"                                "Movement speed decrease:"
+
+		"DOTA_Tooltip_ability_tower_poison2"                                              "Poison 2"
+		"DOTA_Tooltip_ability_tower_poison2_Description"                                  "Poisons enemy"
+		"DOTA_Tooltip_ability_tower_poison2_duration"                                     "Duration:"
+		"DOTA_Tooltip_ability_tower_poison2_damage"                                       "Damage per tick:"
+		"DOTA_Tooltip_ability_tower_poison2_movement_speed"                               "Movement speed decrease:"
+
+		"DOTA_Tooltip_ability_tower_gold"                                                 "Pillage"
+		"DOTA_Tooltip_ability_tower_gold_Description"                                     "5%% chance to get gold every hit"
+		"DOTA_Tooltip_ability_tower_gold_chance_pct"                                      "Chance:"
+		"DOTA_Tooltip_ability_tower_gold_bonus_gold"                                      "Bonus gold:"
+
+		"DOTA_Tooltip_ability_tower_gold2"                                                "Pillage 2"
+		"DOTA_Tooltip_ability_tower_gold2_Description"                                    "5%% chance to get gold every hit"
+		"DOTA_Tooltip_ability_tower_gold2_chance_pct"                                     "Chance"
+		"DOTA_Tooltip_ability_tower_gold2_bonus_gold"                                     "Bonus gold:"
+
+		"DOTA_Tooltip_ability_tower_critical"                                             "Critical"
+		"DOTA_Tooltip_ability_tower_critical_Description"                                 "20%% chance to deal extra damage"
+		"DOTA_Tooltip_ability_tower_critical_crit_bonus"                                  "Crit bonus:"
+		"DOTA_Tooltip_ability_tower_critical_crit_chance"                                 "Crit chance:"
+
+		"DOTA_Tooltip_ability_tower_critical2"                                            "Critical 2"
+		"DOTA_Tooltip_ability_tower_critical2_Description"                                "25%% chance to deal extra damage"
+		"DOTA_Tooltip_ability_tower_critical2_crit_bonus"                                 "Crit bonus:"
+		"DOTA_Tooltip_ability_tower_critical2_crit_chance"                                "Crit chance:"
+
+		"DOTA_Tooltip_ability_tower_frost_splash"                                         "Frost Splash"
+		"DOTA_Tooltip_ability_tower_frost_splash_Description"                             "Slow and damage units in an area"
+		"DOTA_Tooltip_ability_tower_frost_splash_splash_radius"                           "Splash radius:"
+		"DOTA_Tooltip_ability_tower_frost_splash_splash_damage_percent"                   "Splash damage %:"
+		"DOTA_Tooltip_ability_tower_frost_splash_frost_bonus_movement_speed"              "Movement speed slow:"
+		"DOTA_Tooltip_ability_tower_frost_splash_frost_duration"                          "Frost duration:"
+		"DOTA_Tooltip_ability_tower_frost_splash_frost_aoe"                               "Frost AOE:"
+
+		"DOTA_Tooltip_ability_tower_frost_splash2"                                        "Frost Splash 2"
+		"DOTA_Tooltip_ability_tower_frost_splash2_Description"                            "Slow and damage units in an area"
+		"DOTA_Tooltip_ability_tower_frost_splash2_splash_radius"                          "Splash radius:"
+		"DOTA_Tooltip_ability_tower_frost_splash2_splash_damage_percent"                  "Splash damage %:"
+		"DOTA_Tooltip_ability_tower_frost_splash2_frost_bonus_movement_speed"             "Movement speed slow:"
+		"DOTA_Tooltip_ability_tower_frost_splash2_frost_duration"                         "Frost duration:"
+		"DOTA_Tooltip_ability_tower_frost_splash2_frost_aoe"                              "Frost AOE:"
+
+		"DOTA_Tooltip_ability_enchantress_impetus_custom"                                 "Impetus"
+		"DOTA_Tooltip_ability_enchantress_impetus_custom_Description"                     "Does more damage the further the enemy is"
+		"DOTA_Tooltip_ability_enchantress_impetus_custom_distance_damage_pct"             "Damage as distance %:"
+		"DOTA_Tooltip_ability_enchantress_impetus_custom_distance_damage_cap"             "Damage cap:"
+
+		"DOTA_Tooltip_ability_enchantress_impetus_custom2"                                "Impetus 2"
+		"DOTA_Tooltip_ability_enchantress_impetus_custom2_Description"                    "Does more damage the further the enemy is"
+		"DOTA_Tooltip_ability_enchantress_impetus_custom2_distance_damage_pct"            "Damage as distance %:"
+		"DOTA_Tooltip_ability_enchantress_impetus_custom2_distance_damage_cap"            "Damage cap:"
+
+		"DOTA_Tooltip_ability_tower_decrepify"                                            "Decrepify Splash"
+		"DOTA_Tooltip_ability_tower_decrepify_Description"                                "Causes units in an area to take extra magic damage"
+		"DOTA_Tooltip_ability_tower_decrepify_bonus_spell_damage_pct"                     "Bonus spell damage %:"
+		"DOTA_Tooltip_ability_tower_decrepify_bonus_movement_speed"                       "Movement speed decrease:"
+		"DOTA_Tooltip_ability_tower_decrepify_tooltip_duration"                           "Duration:"
+		"DOTA_Tooltip_ability_tower_decrepify_debuff_radius"                              "Radius:"
+
+		"DOTA_Tooltip_ability_tower_decrepify2"                                           "Decrepify Splash 2"
+		"DOTA_Tooltip_ability_tower_decrepify2_Description"                               "Causes units in an area to take extra magic damage"
+		"DOTA_Tooltip_ability_tower_decrepify2_bonus_spell_damage_pct"                    "Bonus spell damage %:"
+		"DOTA_Tooltip_ability_tower_decrepify2_bonus_movement_speed"                      "Movement speed decrease:"
+		"DOTA_Tooltip_ability_tower_decrepify2_tooltip_duration"                          "Duration:"
+		"DOTA_Tooltip_ability_tower_decrepify2_debuff_radius"                             "Radius:"
+
+		"DOTA_Tooltip_ability_tower_life"                                                 "Heal"
+		"DOTA_Tooltip_ability_tower_life_Description"                                     "Every 15 kills made by all Life Towers combined will increase the number of lives"
+		"DOTA_Tooltip_ability_tower_life_tooltip_lives"                                   "Lives gain:"
+
+		"DOTA_Tooltip_ability_ability_custom_creep_evasion"                               "Evasion"
+		"DOTA_Tooltip_ability_ability_custom_creep_evasion_Description"                   "Chance to evade attacks."
+		"DOTA_Tooltip_ability_ability_custom_creep_evasion_bonus_evasion"                 "Evasion Rate:"
+
+		"DOTA_Tooltip_ability_tower_sell_building"                                        "Sell Tower"
+		"DOTA_Tooltip_ability_tower_sell_building_Description"                            "Elemental Towers: <font color=\"#ffff00\">75%%</font> returns.<br>Non-Elemental Towers: <font color=\"#ffff00\">100%%</font> returns."
+
+		"DOTA_Tooltip_ability_fire_god_pay_tribute"                                       "Pay Tribute"
+		"DOTA_Tooltip_ability_fire_god_pay_tribute_Description"                           "A chance to upgrade your fire orb.<br><br>Gold Cost: <font color=\"#ffff00\">20</font><br>Chance: <font color=\"#33ccff\">25</font>%%"
+
+		"DOTA_Tooltip_ability_water_god_pay_tribute"                                      "Pay Tribute"
+		"DOTA_Tooltip_ability_water_god_pay_tribute_Description"                          "A chance to upgrade your water orb.<br><br>Gold Cost: <font color=\"#ffff00\">20</font><br>Chance: <font color=\"#33ccff\">25</font>%%"
+
+		"DOTA_Tooltip_ability_nature_god_pay_tribute"                                     "Pay Tribute"
+		"DOTA_Tooltip_ability_nature_god_pay_tribute_Description"                         "A chance to upgrade your nature orb.<br><br>Gold Cost: <font color=\"#ffff00\">20</font><br>Chance: <font color=\"#33ccff\">25</font>%%"
+
+		"DOTA_Tooltip_ability_earth_god_pay_tribute"                                      "Pay Tribute"
+		"DOTA_Tooltip_ability_earth_god_pay_tribute_Description"                          "A chance to upgrade your earth orb.<br><br>Gold Cost: <font color=\"#ffff00\">20</font><br>Chance: <font color=\"#33ccff\">25</font>%%"
+
+		"DOTA_Tooltip_ability_light_god_pay_tribute"                                      "Pay Tribute"
+		"DOTA_Tooltip_ability_light_god_pay_tribute_Description"                          "A chance to upgrade your light orb.<br><br>Gold Cost: <font color=\"#ffff00\">20</font><br>Chance: <font color=\"#33ccff\">25</font>%%"
+
+		"DOTA_Tooltip_ability_dark_god_pay_tribute"                                       "Pay Tribute"
+		"DOTA_Tooltip_ability_dark_god_pay_tribute_Description"                           "A chance to upgrade your dark orb.<br><br>Gold Cost: <font color=\"#ffff00\">20</font><br>Chance: <font color=\"#33ccff\">25</font>%%"
+
+		"DOTA_Tooltip_ability_return_to_start_page"                                       "Return To Start Page"
+		"DOTA_Tooltip_ability_return_to_start_page_Description"                           ""
+
+		"DOTA_Tooltip_ability_open_page_elemental"                                        "Build Elemental Towers"
+		"DOTA_Tooltip_ability_open_page_elemental_Description"                            "Open the elemental towers page"
+
+		"DOTA_Tooltip_ability_return_to_start_page2"                                      "Return To Elemental Page"
+		"DOTA_Tooltip_ability_return_to_start_page2_Description"                          ""
+
+		"DOTA_Tooltip_ability_open_page_elemental2"                                       "Go to Page 2"
+		"DOTA_Tooltip_ability_open_page_elemental2_Description"                           ""
+
+		"DOTA_Tooltip_ability_train_city_center_tier2_disabled"                           "Upgrade to Tier 2 Disabled"
+		"DOTA_Tooltip_ability_train_city_center_tier2_disabled_Description"               "<b><font color='#eedd44'>Requires:\n - Tech Center</font></b>\n"
+
+		"DOTA_Tooltip_ability_train_tower_tier2"                                          "Upgrade to Advanced Arrow Tower"
+		"DOTA_Tooltip_ability_train_tower_tier2_Description"                              "DMG: <font color=\"#ff0000\">20-20</font><br>AttackRate: <font color=\"#00ff00\">0.8</font><br>Range: <font color=\"#FFFF00\">750</font><br>AOE: <font color=\"#00BFFF\">0</font><br>Ability: None"
+		"DOTA_Tooltip_ability_train_tower_tier2_gold_cost"                                "Gold Cost:"
+
+		"DOTA_Tooltip_ability_tower_arrowtower2"                                          "Upgrade to Advanced Arrow Tower"
+		"DOTA_Tooltip_ability_tower_arrowtower2_Description"                              "DMG: <font color=\"#ff0000\">20-20</font><br>AttackRate: <font color=\"#00ff00\">0.8</font><br>Range: <font color=\"#FFFF00\">750</font><br>AOE: <font color=\"#00BFFF\">0</font><br>Ability: None"
+
+		"DOTA_Tooltip_ability_train_tower_tier3"                                          "Upgrade to Super Arrow Tower"
+		"DOTA_Tooltip_ability_train_tower_tier3_Description"                              "Even stronger tower"
+		"DOTA_Tooltip_ability_train_tower_tier3_gold_cost"                                "GOLD COST:"
+
+		"DOTA_Tooltip_ability_train_dark_tower"                                           "Upgrade to Dark Tower"
+		"DOTA_Tooltip_ability_train_dark_tower_Description"                               "Ultimate tower"
+		"DOTA_Tooltip_ability_train_dark_tower_build_time"                                "BUILD TIME:"
+		"DOTA_Tooltip_ability_train_dark_tower_gold_cost"                                 "GOLD COST:"
+		"DOTA_Tooltip_ability_train_dark_tower_lumber_cost"                               "LUMBER COST:"
+
+		"DOTA_Tooltip_ability_train_dark_tower_disabled"                                  "Upgrade to Dark Tower Disabled"
+		"DOTA_Tooltip_ability_train_dark_tower_disabled_Description"                      "<b><font color='#eedd44'>Requires:\n - Tech Center</font></b>\n"
+
+		"DOTA_Tooltip_ability_build_tower"                                                "Build Arrow Tower"
+		"DOTA_Tooltip_ability_build_tower_Description"                                    "DMG: <font color=\"#ff0000\">10-10</font><br>AttackRate: <font color=\"#00ff00\">0.9</font><br>Range: <font color=\"#FFFF00\">750</font><br>AOE: <font color=\"#00BFFF\">0</font><br>Ability: None"
+		"DOTA_Tooltip_ability_build_tower_gold_cost"                                      "Gold cost:"
+
+		"DOTA_Tooltip_ability_build_cannontower"                                          "Build Cannon Tower"
+		"DOTA_Tooltip_ability_build_cannontower_Description"                              "DMG: <font color=\"#ff0000\">5-5</font><br>AttackRate: <font color=\"#00ff00\">0.9</font><br>Range: <font color=\"#FFFF00\">750</font><br>AOE: <font color=\"#00BFFF\">300</font><br>Ability: None"
+		"DOTA_Tooltip_ability_build_cannontower_gold_cost"                                "Gold cost:"
+
+		"DOTA_Tooltip_ability_build_firetower"                                            "Build Fire Tower"
+		"DOTA_Tooltip_ability_build_firetower_Description"                                "DMG: <font color=\"#ff0000\">2-2</font><br>AttackRate: <font color=\"#00ff00\">0.33</font><br>Range: <font color=\"#FFFF00\">800</font><br>AOE: <font color=\"#00BFFF\">450</font><br>Ability: None"
+		"DOTA_Tooltip_ability_build_firetower_gold_cost"                                  "Gold cost:"
+
+		"DOTA_Tooltip_ability_build_watertower"                                           "Build Water Tower"
+		"DOTA_Tooltip_ability_build_watertower_Description"                               "DMG: <font color=\"#ff0000\">2-2</font><br>AttackRate: <font color=\"#00ff00\">0.33</font><br>Range: <font color=\"#FFFF00\">1200</font><br>AOE: <font color=\"#00BFFF\">300</font><br>Ability: None"
+		"DOTA_Tooltip_ability_build_watertower_gold_cost"                                 "Gold cost:"
+
+		"DOTA_Tooltip_ability_build_naturetower"                                          "Build Nature Tower"
+		"DOTA_Tooltip_ability_build_naturetower_Description"                              "DMG: <font color=\"#ff0000\">10-10</font><br>AttackRate: <font color=\"#00ff00\">0.66</font><br>Range: <font color=\"#FFFF00\">1200</font><br>AOE: <font color=\"#00BFFF\">0</font><br>Ability: None"
+		"DOTA_Tooltip_ability_build_naturetower_gold_cost"                                "Gold cost:"
+
+		"DOTA_Tooltip_ability_build_earthtower"                                           "Build Earth Tower"
+		"DOTA_Tooltip_ability_build_earthtower_Description"                               "DMG: <font color=\"#ff0000\">4-4</font><br>AttackRate: <font color=\"#00ff00\">1.0</font><br>Range: <font color=\"#FFFF00\">1000</font><br>AOE: <font color=\"#00BFFF\">450</font><br>Ability: None"
+		"DOTA_Tooltip_ability_build_earthtower_gold_cost"                                 "Gold cost:"
+
+		"DOTA_Tooltip_ability_build_lighttower"                                           "Build Light Tower"
+		"DOTA_Tooltip_ability_build_lighttower_Description"                               "DMG: <font color=\"#ff0000\">8-8</font><br>AttackRate: <font color=\"#00ff00\">0.66</font><br>Range: <font color=\"#FFFF00\">2200</font><br>AOE: <font color=\"#00BFFF\">0</font><br>Ability: None"
+		"DOTA_Tooltip_ability_build_lighttower_gold_cost"                                 "Gold cost:"
+
+		"DOTA_Tooltip_ability_build_darktower"                                            "Build Dark Tower"
+		"DOTA_Tooltip_ability_build_darktower_Description"                                "DMG: <font color=\"#ff0000\">20-20</font><br>AttackRate: <font color=\"#00ff00\">1.5</font><br>Range: <font color=\"#FFFF00\">1600</font><br>AOE: <font color=\"#00BFFF\">0</font><br>Ability: None"
+		"DOTA_Tooltip_ability_build_darktower_gold_cost"                                  "Gold cost:"
+
+		"DOTA_Tooltip_ability_build_city_center"                                          "Build City Center"
+		"DOTA_Tooltip_ability_build_city_center_Description"                              "Contains the "
+		"DOTA_Tooltip_ability_build_city_center_gold_cost"                                "GOLD COST:"
+		"DOTA_Tooltip_ability_build_city_center_lumber_cost"                              "LUMBER COST:"
+
+		"DOTA_Tooltip_ability_build_tech_center"                                          "Build Tech Center"
+		"DOTA_Tooltip_ability_build_tech_center_Description"                              "Contains the Dark Tower and Ultimate Ability researches"
+		"DOTA_Tooltip_ability_build_tech_center_gold_cost"                                "GOLD COST:"
+		"DOTA_Tooltip_ability_build_tech_center_lumber_cost"                              "LUMBER COST:"
+
+		"DOTA_Tooltip_ability_build_tech_center_disabled"                                 "Build Tech Center Disabled"
+		"DOTA_Tooltip_ability_build_tech_center_disabled_Description"                     "<b><font color='#eedd44'>Requires:\n - Tower</font></b>\n"
+
+		"DOTA_Tooltip_ability_build_dragon_tower"                                         "Build Dragon Tower"
+		"DOTA_Tooltip_ability_build_dragon_tower_Description"                             "Builder goes inside and offers himself as sacrifice to build this greater tower"
+		"DOTA_Tooltip_ability_build_dragon_tower_build_time"                              "BUILD TIME:"
+		"DOTA_Tooltip_ability_build_dragon_tower_gold_cost"                               "GOLD COST:"
+		"DOTA_Tooltip_ability_build_dragon_tower_lumber_cost"                             "LUMBER COST:"
+
+		"DOTA_Tooltip_ability_build_dragon_tower_disabled"                                "Build Dragon Tower Disabled"
+		"DOTA_Tooltip_ability_build_dragon_tower_disabled_Description"                    "<b><font color='#eedd44'>Requires:\n - Tech Center\n - City Center Tier 2</font></b>\n"
+
+		"DOTA_Tooltip_ability_repair"                                                     "Repair"
+		"DOTA_Tooltip_ability_repair_Description"                                         "Repairs structures at the cost of resources."
+
+		"DOTA_Tooltip_ability_research_dark_tower"                                        "Research Dark Tower"
+		"DOTA_Tooltip_ability_research_dark_tower_Description"                            "Allows Dragon Towers to be upgraded into Dark Towers"
+		"DOTA_Tooltip_ability_research_dark_tower_research_time"                          "RESEARCH TIME:"
+		"DOTA_Tooltip_ability_research_dark_tower_gold_cost"                              "GOLD COST:"
+		"DOTA_Tooltip_ability_research_dark_tower_lumber_cost"                            "LUMBER COST:"
+
+		"DOTA_Tooltip_ability_research_ultimate_ability"                                  "Research Ultimate Ability"
+		"DOTA_Tooltip_ability_research_ultimate_ability_Description"                      "Lets you use your ultimate"
+		"DOTA_Tooltip_ability_research_ultimate_ability_research_time"                    "RESEARCH TIME:"
+		"DOTA_Tooltip_ability_research_ultimate_ability_gold_cost"                        "GOLD COST:"
+		"DOTA_Tooltip_ability_research_ultimate_ability_lumber_cost"                      "LUMBER COST:"
+
+		"DOTA_Tooltip_ability_research_ultimate_ability_disabled"                         "Research Ultimate Ability Disabled"
+		"DOTA_Tooltip_ability_research_ultimate_ability_disabled_Description"             "<b><font color='#eedd44'>Requires:\n - City Center Tier 2</font></b>\n"
+
+		"DOTA_Tooltip_ability_ultimate_ability"                                           "Ultimate Ability"
+		"DOTA_Tooltip_ability_ultimate_ability_Description"                               "This is supposed to do something fancy"
+
+		"DOTA_Tooltip_ability_ultimate_ability_disabled"                                  "Ultimate Ability Disabled"
+		"DOTA_Tooltip_ability_ultimate_ability_disabled_Description"                      "<b><font color='#eedd44'>Requires:\n -  Research Ultimate Ability</font></b>\n"
+
+		"DOTA_Tooltip_ability_queenofpain_blink_datadriven"                               "Blink"
+		"DOTA_Tooltip_ability_queenofpain_blink_datadriven_Description"                   ""
+		"DOTA_Tooltip_ability_queenofpain_blink_datadriven_blink_range"                   "Blink range:"
+
+		"DOTA_Tooltip_ability_sven_great_cleave_datadriven"                               "Cleave"
+		"DOTA_Tooltip_ability_sven_great_cleave_datadriven_Description"                   ""
+		"DOTA_Tooltip_ability_sven_great_cleave_datadriven_great_cleave_radius"           "CLEAVE RADIUS:"
+		"DOTA_Tooltip_ability_sven_great_cleave_datadriven_great_cleave_damage"           "CLEAVE PERCENTAGE:"
+
+		"DOTA_Tooltip_ability_builder_guardian_angel_passive"                             "Guardian Angel"
+		"DOTA_Tooltip_ability_builder_guardian_angel_passive_Description"                 "Physical immunity"
+
+		
+		// ******************** ITEMS ********************
+		"DOTA_Tooltip_ability_item_building_cancel"                                       "Building Cancel"
+		"DOTA_Tooltip_ability_item_building_cancel_Description"                           ""
+
+		"DOTA_Tooltip_ability_item_sell_building"                                         "Sell Tower"
+		"DOTA_Tooltip_ability_item_sell_building_Description"                             "Sell Elemental Towers for 75%% of its total cost.<br>Sell Non-Elemental Towers for 100%% of its total cost."
+
+		"DOTA_Tooltip_ability_item_upgrade_arrowtower2"                                   "Advanced Arrow Tower"
+		"DOTA_Tooltip_ability_item_upgrade_arrowtower2_Description"                       "Gold cost: <font color=\"#FFFF00\">30</font><br>DMG: <font color=\"#ff0000\">22-22</font><br>AttackRate: <font color=\"#00ff00\">0.8</font><br>Range: <font color=\"#00BFFF\">750</font><br>Ability: None"
+
+		"DOTA_Tooltip_ability_item_upgrade_cannontower2"                                  "Advanced Cannon Tower"
+		"DOTA_Tooltip_ability_item_upgrade_cannontower2_Description"                      "Gold cost: <font color=\"#FFFF00\">30</font><br>DMG: <font color=\"#ff0000\">12-12</font><br>AttackRate: <font color=\"#00ff00\">0.8</font><br>Range: <font color=\"#00BFFF\">750</font><br>AOE: <font color=\"#FFFF00\">300</font><br>Ability: None"
+
+		"DOTA_Tooltip_ability_item_fire_light_lightningtower"                             "Lightning Tower"
+		"DOTA_Tooltip_ability_item_fire_light_lightningtower_Description"                 "(<font color=\"#ff0000\">Fire</font> + <font color=\"#FFFF00\">Light</font>)<br>Gold cost: <font color=\"#FFFF00\">100</font><br>Range: <font color=\"#00BFFF\">850</font><br>Ability: Arc Lightning"
+
+		"DOTA_Tooltip_ability_item_fire2_light2_zeustower"                                "Zeus Tower"
+		"DOTA_Tooltip_ability_item_fire2_light2_zeustower_Description"                    "(<font color=\"#ff0000\">Fire2</font> + <font color=\"#FFFF00\">Light2</font>)<br>Gold cost: <font color=\"#FFFF00\">150</font><br>Range: <font color=\"#00BFFF\">850</font><br>Ability: Arc Lightning"
+
+		"DOTA_Tooltip_ability_item_water_light_speedauratower"                            "Speed Aura Tower"
+		"DOTA_Tooltip_ability_item_water_light_speedauratower_Description"                "(<font color=\"#007fff\">Water</font> + <font color=\"#FFFF00\">Light</font>)<br>Gold cost: <font color=\"#FFFF00\">100</font><br>Range: <font color=\"#00BFFF\">600</font><br>Ability: Speed Aura 1"
+
+		"DOTA_Tooltip_ability_item_water2_light2_speedauratower2"                         "Advanced Speed Aura Tower"
+		"DOTA_Tooltip_ability_item_water2_light2_speedauratower2_Description"             "(<font color=\"#007fff\">Water2</font> + <font color=\"#FFFF00\">Light2</font>)<br>Gold cost: <font color=\"#FFFF00\">150</font><br>Range: <font color=\"#00BFFF\">600</font><br>Ability: Speed Aura 2"
+
+		"DOTA_Tooltip_ability_item_dark_nature_multishot"                                 "Multi-Shot Tower"
+		"DOTA_Tooltip_ability_item_dark_nature_multishot_Description"                     "(<font color=\"#5900b3\">Dark</font> + <font color=\"#00ff00\">Nature</font>)<br>Gold cost: <font color=\"#FFFF00\">100</font><br>DMG: <font color=\"#ff0000\">22-22</font><br>AttackRate: <font color=\"#00ff00\">0.9</font><br>Range: <font color=\"#00BFFF\">800</font><br>Ability: Multi-Shot"
+
+		"DOTA_Tooltip_ability_item_dark2_nature2_multishot2"                              "Medusa Tower"
+		"DOTA_Tooltip_ability_item_dark2_nature2_multishot2_Description"                  "(<font color=\"#5900b3\">Dark2</font> + <font color=\"#00ff00\">Nature2</font>)<br>Gold cost: <font color=\"#FFFF00\">150</font><br>DMG: <font color=\"#ff0000\">55-55</font><br>AttackRate: <font color=\"#00ff00\">0.9</font><br>Range: <font color=\"#00BFFF\">800</font><br>Ability: Multi-Shot"
+
+		"DOTA_Tooltip_ability_item_fire_dark_nevermore"                                   "Nevermore Tower"
+		"DOTA_Tooltip_ability_item_fire_dark_nevermore_Description"                       "(<font color=\"#ff0000\">Fire</font> + <font color=\"#5900b3\">Dark</font>)<br>Gold cost: <font color=\"#FFFF00\">100</font><br>DMG: <font color=\"#ff0000\">10-10</font><br>AttackRate: <font color=\"#00ff00\">1.2</font><br>Range: <font color=\"#00BFFF\">900</font><br>Ability: Dark Lord Aura 1"
+
+		"DOTA_Tooltip_ability_item_fire2_dark2_nevermore2"                                "Desolate Tower"
+		"DOTA_Tooltip_ability_item_fire2_dark2_nevermore2_Description"                    "(<font color=\"#ff0000\">Fire2</font> + <font color=\"#5900b3\">Dark2</font>)<br>Gold cost: <font color=\"#FFFF00\">150</font><br>DMG: <font color=\"#ff0000\">20-20</font><br>AttackRate: <font color=\"#00ff00\">1.2</font><br>Range: <font color=\"#00BFFF\">900</font><br>Ability: Dark Lord Aura 2"
+
+		"DOTA_Tooltip_ability_item_earth_light_damageaura"                                "Damage Aura Tower"
+		"DOTA_Tooltip_ability_item_earth_light_damageaura_Description"                    "(<font color=\"#ff9900\">Earth</font> + <font color=\"#FFFF00\">Light</font>)<br>Gold cost: <font color=\"#FFFF00\">100</font><br>Range: <font color=\"#00BFFF\">900</font><br>Ability: Damage Aura 1"
+
+		"DOTA_Tooltip_ability_item_earth2_light2_damageaura2"                             "Vengeance Tower"
+		"DOTA_Tooltip_ability_item_earth2_light2_damageaura2_Description"                 "(<font color=\"#ff9900\">Earth2</font> + <font color=\"#FFFF00\">Light2</font>)<br>Gold cost: <font color=\"#FFFF00\">150</font><br>Range: <font color=\"#00BFFF\">900</font><br>Ability: Damage Aura 2"
+
+		"DOTA_Tooltip_ability_item_earth_dark_bash"                                       "Bash Tower"
+		"DOTA_Tooltip_ability_item_earth_dark_bash_Description"                           "(<font color=\"#ff9900\">Earth</font> + <font color=\"#5900b3\">Dark</font>)<br>Gold cost: <font color=\"#FFFF00\">100</font><br>DMG: <font color=\"#ff0000\">5-5</font><br>AttackRate: <font color=\"#00ff00\">0.4</font><br>Range: <font color=\"#00BFFF\">1000</font><br>Ability: Bash"
+
+		"DOTA_Tooltip_ability_item_earth2_dark2_bash2"                                    "Time Lock Tower"
+		"DOTA_Tooltip_ability_item_earth2_dark2_bash2_Description"                        "(<font color=\"#ff9900\">Earth2</font> + <font color=\"#5900b3\">Dark2</font>)<br>Gold cost: <font color=\"#FFFF00\">150</font><br>DMG: <font color=\"#ff0000\">12-12</font><br>AttackRate: <font color=\"#00ff00\">0.3</font><br>Range: <font color=\"#00BFFF\">1000</font><br>Ability: Bash 2"
+
+		"DOTA_Tooltip_ability_item_water_dark_poison"                                     "Poison Tower"
+		"DOTA_Tooltip_ability_item_water_dark_poison_Description"                         "(<font color=\"#007fff\">Water</font> + <font color=\"#5900b3\">Dark</font>)<br>Gold cost: <font color=\"#FFFF00\">100</font><br>DMG: <font color=\"#ff0000\">5-5</font><br>AttackRate: <font color=\"#00ff00\">1.2</font><br>Range: <font color=\"#00BFFF\">800</font><br>Ability: Poison"
+
+		"DOTA_Tooltip_ability_item_water2_dark2_poison2"                                  "Venomous Tower"
+		"DOTA_Tooltip_ability_item_water2_dark2_poison2_Description"                      "(<font color=\"#007fff\">Water2</font> + <font color=\"#5900b3\">Dark2</font>)<br>Gold cost: <font color=\"#FFFF00\">150</font><br>DMG: <font color=\"#ff0000\">5-5</font><br>AttackRate: <font color=\"#00ff00\">1.2</font><br>Range: <font color=\"#00BFFF\">800</font><br>Ability: Poison 2"
+
+		"DOTA_Tooltip_ability_item_fire_nature_sniper"                                    "Sniper Tower"
+		"DOTA_Tooltip_ability_item_fire_nature_sniper_Description"                        "(<font color=\"#ff0000\">Fire</font> + <font color=\"#00ff00\">Nature</font>)<br>Gold cost: <font color=\"#FFFF00\">100</font><br>DMG: <font color=\"#ff0000\">60-60</font><br>AttackRate: <font color=\"#00ff00\">1.6</font><br>Range: <font color=\"#00BFFF\">3000</font><br>Ability: None"
+
+		"DOTA_Tooltip_ability_item_fire2_nature2_sniper2"                                 "Super Sniper Tower"
+		"DOTA_Tooltip_ability_item_fire2_nature2_sniper2_Description"                     "(<font color=\"#ff0000\">Fire2</font> + <font color=\"#00ff00\">Nature2</font>)<br>Gold cost: <font color=\"#FFFF00\">150</font><br>DMG: <font color=\"#ff0000\">115-115</font><br>AttackRate: <font color=\"#00ff00\">1.4</font><br>Range: <font color=\"#00BFFF\">3200</font><br>Ability: None"
+
+		"DOTA_Tooltip_ability_item_water_earth_glaive"                                    "Glaive Tower"
+		"DOTA_Tooltip_ability_item_water_earth_glaive_Description"                        "(<font color=\"#007fff\">Water</font> + <font color=\"#ff9900\">Earth</font>)<br>Gold cost: <font color=\"#FFFF00\">100</font><br>DMG: <font color=\"#ff0000\">25-25</font><br>AttackRate: <font color=\"#00ff00\">0.9</font><br>Range: <font color=\"#00BFFF\">900</font><br>Ability: Moon Glaive"
+
+		"DOTA_Tooltip_ability_item_water2_earth2_glaive2"                                 "Luna Tower"
+		"DOTA_Tooltip_ability_item_water2_earth2_glaive2_Description"                     "(<font color=\"#007fff\">Water2</font> + <font color=\"#ff9900\">Earth2</font>)<br>Gold cost: <font color=\"#FFFF00\">150</font><br>DMG: <font color=\"#ff0000\">58-58</font><br>AttackRate: <font color=\"#00ff00\">0.9</font><br>Range: <font color=\"#00BFFF\">900</font><br>Ability: Moon Glaive"
+
+		"DOTA_Tooltip_ability_item_fire_earth_gold"                                       "Gold Tower"
+		"DOTA_Tooltip_ability_item_fire_earth_gold_Description"                           "(<font color=\"#ff0000\">Fire</font> + <font color=\"#ff9900\">Earth</font>)<br>Gold cost: <font color=\"#FFFF00\">100</font><br>DMG: <font color=\"#ff0000\">1-1</font><br>AttackRate: <font color=\"#00ff00\">0.3</font><br>Range: <font color=\"#00BFFF\">800</font><br>Ability: Pillage"
+
+		"DOTA_Tooltip_ability_item_fire2_earth2_gold2"                                    "Wealth Tower"
+		"DOTA_Tooltip_ability_item_fire2_earth2_gold2_Description"                        "(<font color=\"#ff0000\">Fire2</font> + <font color=\"#ff9900\">Earth2</font>)<br>Gold cost: <font color=\"#FFFF00\">150</font><br>DMG: <font color=\"#ff0000\">1-1</font><br>AttackRate: <font color=\"#00ff00\">0.3</font><br>Range: <font color=\"#00BFFF\">850</font><br>Ability: Pillage 2"
+
+		"DOTA_Tooltip_ability_item_earth_nature_critical"                                 "Critical Tower"
+		"DOTA_Tooltip_ability_item_earth_nature_critical_Description"                     "(<font color=\"#ff9900\">Earth</font> + <font color=\"#00ff00\">Nature</font>)<br>Gold cost: <font color=\"#FFFF00\">100</font><br>DMG: <font color=\"#ff0000\">40-40</font><br>AttackRate: <font color=\"#00ff00\">0.6</font><br>Range: <font color=\"#00BFFF\">1000</font><br>Ability: Critical"
+
+		"DOTA_Tooltip_ability_item_earth2_nature2_critical2"                              "Assassin Tower"
+		"DOTA_Tooltip_ability_item_earth2_nature2_critical2_Description"                  "(<font color=\"#ff9900\">Earth2</font> + <font color=\"#00ff00\">Nature2</font>)<br>Gold cost: <font color=\"#FFFF00\">150</font><br>DMG: <font color=\"#ff0000\">78-78</font><br>AttackRate: <font color=\"#00ff00\">0.6</font><br>Range: <font color=\"#00BFFF\">1000</font><br>Ability: Critical 2"
+
+		"DOTA_Tooltip_ability_item_water_nature_frost"                                    "Frost Tower"
+		"DOTA_Tooltip_ability_item_water_nature_frost_Description"                        "(<font color=\"#007fff\">Water</font> + <font color=\"#00ff00\">Nature</font>)<br>Gold cost: <font color=\"#FFFF00\">100</font><br>DMG: <font color=\"#ff0000\">12-12</font><br>AttackRate: <font color=\"#00ff00\">0.6</font><br>Range: <font color=\"#00BFFF\">900</font><br>Ability: Frost Splash"
+
+		"DOTA_Tooltip_ability_item_water2_nature2_frost2"                                 "Winter Tower"
+		"DOTA_Tooltip_ability_item_water2_nature2_frost2_Description"                     "(<font color=\"#007fff\">Water2</font> + <font color=\"#00ff00\">Nature2</font>)<br>Gold cost: <font color=\"#FFFF00\">150</font><br>DMG: <font color=\"#ff0000\">25-25</font><br>AttackRate: <font color=\"#00ff00\">0.6</font><br>Range: <font color=\"#00BFFF\">900</font><br>Ability: Frost Splash 2"
+
+		"DOTA_Tooltip_ability_item_light_dark_impetus"                                    "Impetus Tower"
+		"DOTA_Tooltip_ability_item_light_dark_impetus_Description"                        "(<font color=\"#FFFF00\">Light</font> + <font color=\"#5900b3\">Dark</font>)<br>Gold cost: <font color=\"#FFFF00\">100</font><br>DMG: <font color=\"#ff0000\">1-1</font><br>AttackRate: <font color=\"#00ff00\">1.2</font><br>Range: <font color=\"#00BFFF\">1200</font><br>Ability: Impetus"
+
+		"DOTA_Tooltip_ability_item_light2_dark2_impetus2"                                 "Super Impetus Tower"
+		"DOTA_Tooltip_ability_item_light2_dark2_impetus2_Description"                     "(<font color=\"#FFFF00\">Light2</font> + <font color=\"#5900b3\">Dark2</font>)<br>Gold cost: <font color=\"#FFFF00\">150</font><br>DMG: <font color=\"#ff0000\">1-1</font><br>AttackRate: <font color=\"#00ff00\">1.2</font><br>Range: <font color=\"#00BFFF\">1400</font><br>Ability: Impetus 2"
+
+		"DOTA_Tooltip_ability_item_fire_water_decrepify"                                  "Decrepify Tower"
+		"DOTA_Tooltip_ability_item_fire_water_decrepify_Description"                      "(<font color=\"#ff0000\">Fire</font> + <font color=\"#007fff\">Water</font>)<br>Gold cost: <font color=\"#FFFF00\">100</font><br>Range: <font color=\"#00BFFF\">800</font><br>Ability: Decrepify Splash"
+
+		"DOTA_Tooltip_ability_item_fire2_water2_decrepify2"                               "Pugna Tower"
+		"DOTA_Tooltip_ability_item_fire2_water2_decrepify2_Description"                   "(<font color=\"#ff0000\">Fire2</font> + <font color=\"#007fff\">Water2</font>)<br>Gold cost: <font color=\"#FFFF00\">150</font><br>Range: <font color=\"#00BFFF\">900</font><br>Ability: Decrepify Splash 2"
+
+		"DOTA_Tooltip_ability_item_light_nature_life"                                     "Life Tower"
+		"DOTA_Tooltip_ability_item_light_nature_life_Description"                         "(<font color=\"#FFFF00\">Light</font> + <font color=\"#00ff00\">Nature</font>)<br>Gold cost: <font color=\"#FFFF00\">100</font><br>DMG: <font color=\"#ff0000\">35-35</font><br>AttackRate: <font color=\"#00ff00\">1.2</font><br>Range: <font color=\"#00BFFF\">1000</font><br>Ability: Heal"
+
+		"DOTA_Tooltip_ability_item_fire_orb"                                              "Fire Orb"
+		"DOTA_Tooltip_ability_item_fire_orb_Description"                                  "Level - <font color=\"#ff0000\">1</font>"
+
+		"DOTA_Tooltip_ability_item_fire_orb_2"                                            "Fire Orb"
+		"DOTA_Tooltip_ability_item_fire_orb_2_Description"                                "Level - <font color=\"#ff0000\">2</font>"
+
+		"DOTA_Tooltip_ability_item_water_orb"                                             "Water Orb"
+		"DOTA_Tooltip_ability_item_water_orb_Description"                                 "Level - <font color=\"#ff0000\">1</font>"
+
+		"DOTA_Tooltip_ability_item_water_orb_2"                                           "Water Orb"
+		"DOTA_Tooltip_ability_item_water_orb_2_Description"                               "Level - <font color=\"#ff0000\">2</font>"
+
+		"DOTA_Tooltip_ability_item_nature_orb"                                            "Nature Orb"
+		"DOTA_Tooltip_ability_item_nature_orb_Description"                                "Level - <font color=\"#ff0000\">1</font>"
+
+		"DOTA_Tooltip_ability_item_nature_orb_2"                                          "Nature Orb"
+		"DOTA_Tooltip_ability_item_nature_orb_2_Description"                              "Level - <font color=\"#ff0000\">2</font>"
+
+		"DOTA_Tooltip_ability_item_earth_orb"                                             "Earth Orb"
+		"DOTA_Tooltip_ability_item_earth_orb_Description"                                 "Level - <font color=\"#ff0000\">1</font>"
+
+		"DOTA_Tooltip_ability_item_earth_orb_2"                                           "Earth Orb"
+		"DOTA_Tooltip_ability_item_earth_orb_2_Description"                               "Level - <font color=\"#ff0000\">2</font>"
+
+		"DOTA_Tooltip_ability_item_light_orb"                                             "Light Orb"
+		"DOTA_Tooltip_ability_item_light_orb_Description"                                 "Level - <font color=\"#ff0000\">1</font>"
+
+		"DOTA_Tooltip_ability_item_light_orb_2"                                           "Light Orb"
+		"DOTA_Tooltip_ability_item_light_orb_2_Description"                               "Level - <font color=\"#ff0000\">2</font>"
+
+		"DOTA_Tooltip_ability_item_dark_orb"                                              "Dark Orb"
+		"DOTA_Tooltip_ability_item_dark_orb_Description"                                  "Level - <font color=\"#ff0000\">1</font>"
+
+		"DOTA_Tooltip_ability_item_dark_orb_2"                                            "Dark Orb"
+		"DOTA_Tooltip_ability_item_dark_orb_2_Description"                                "Level - <font color=\"#ff0000\">2</font>"
+
+		"DOTA_Tooltip_ability_item_build_wall"                                            "Build Wall"
+		"DOTA_Tooltip_ability_item_build_wall_Description"                                ""
+		"DOTA_Tooltip_ability_item_build_wall_build_time"                                 "BUILD TIME:"
+		"DOTA_Tooltip_ability_item_build_wall_gold_cost"                                  "GOLD COST:"
+		"DOTA_Tooltip_ability_item_build_wall_lumber_cost"                                "LUMBER COST:"
+
+		"DOTA_Tooltip_ability_item_research_dark_tower"                                   "Cancel Research Dark Tower"
+		"DOTA_Tooltip_ability_item_research_dark_tower_Description"                       ""
+
+		"DOTA_Tooltip_ability_item_research_ultimate_ability"                             "CancelResearch Ultimate Ability"
+		"DOTA_Tooltip_ability_item_research_ultimate_ability_Description"                 ""
+
+		"DOTA_Tooltip_ability_item_train_city_center_tier2"                               "Cancel Upgrade to Advanced Arrow Tower"
+		"DOTA_Tooltip_ability_item_train_city_center_tier2_Description"                   ""
+
+		"DOTA_Tooltip_ability_item_train_tower_tier2"                                     "Cancel Upgrade to Advanced Arrow Tower"
+		"DOTA_Tooltip_ability_item_train_tower_tier2_Description"                         ""
+
+		"DOTA_Tooltip_ability_item_train_dark_tower"                                      "Cancel Upgrade to Dark Tower"
+		"DOTA_Tooltip_ability_item_train_dark_tower_Description"                          ""
+
+		"DOTA_Tooltip_ability_item_apply_modifiers"                                       "Apply Modifiers"
+		"DOTA_Tooltip_ability_item_apply_modifiers_Description"                           ""
+
+
+		// DOTA 2 MODKIT GENERATED TOOLTIPS FOR: arne_element_td
+		// Keys already defined in addon_english.txt are not listed, nor are Modifiers with the property "IsHidden" "1".
+
+		// ******************** UNITS ********************
+		"npc_dota_creature_gnoll_assassin"                                                "Dota Creature Gnoll Assassin"
+
+		// ******************** ABILITIES ********************
+		"DOTA_Tooltip_ability_city_center_tier2_passive"                                  "City Center Tier2 Passive"
+		"DOTA_Tooltip_ability_city_center_tier2_passive_Description"                      ""
+
+		"DOTA_Tooltip_ability_ability_building"                                           "Ability Building"
+		"DOTA_Tooltip_ability_ability_building_Description"                               ""
+
+		"DOTA_Tooltip_ability_ability_tower"                                              "Ability Tower"
+		"DOTA_Tooltip_ability_ability_tower_Description"                                  ""
+
+		"DOTA_Tooltip_ability_ability_building_queue"                                     "Ability Building Queue"
+		"DOTA_Tooltip_ability_ability_building_queue_Description"                         ""
+
+		"DOTA_Tooltip_ability_move_to_point_100"                                          "Move To Point 100"
+		"DOTA_Tooltip_ability_move_to_point_100_Description"                              ""
+
+		"DOTA_Tooltip_ability_move_to_point_150"                                          "Move To Point 150"
+		"DOTA_Tooltip_ability_move_to_point_150_Description"                              ""
+
+		"DOTA_Tooltip_ability_move_to_point_200"                                          "Move To Point 200"
+		"DOTA_Tooltip_ability_move_to_point_200_Description"                              ""
+
+		"DOTA_Tooltip_ability_move_to_point_250"                                          "Move To Point 250"
+		"DOTA_Tooltip_ability_move_to_point_250_Description"                              ""
+
+		"DOTA_Tooltip_ability_move_to_point_300"                                          "Move To Point 300"
+		"DOTA_Tooltip_ability_move_to_point_300_Description"                              ""
+
+	}
+}

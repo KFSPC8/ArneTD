@@ -1,0 +1,1972 @@
+"DOTAAbilities"
+{
+	"item_sell_building"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_sell_building"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+		"AbilityCastPoint"				"0"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_handofmidas.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"builder.lua"
+				"Function"		"SellBuilding"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Hand_Of_Midas"
+                "Target"        "CASTER"
+            }
+
+            "AttachEffect"
+            {
+                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
+                "Target"        "CASTER"
+                "EffectAttachType"  "attach_hitloc"
+            }
+		}
+	}
+
+	"item_upgrade_arrowtower2"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_arrowtower2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+
+		"AbilityCastPoint"				"0"
+		"AbilityGoldCost"				"30"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_buckler.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"MyUpgradeBuilding"
+				"UnitName"		"tower_tier2"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Buckler.Activate"
+                "Target"        "CASTER"
+            }
+
+            "AttachEffect"
+            {
+                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
+                "Target"        "CASTER"
+                "EffectAttachType"  "attach_hitloc"
+            }
+		}
+	}
+
+	"item_upgrade_cannontower2"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_cannontower2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+
+		"AbilityCastPoint"				"0"
+		"AbilityGoldCost"				"30"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_buckler.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"MyUpgradeBuilding"
+				"UnitName"		"tower_cannon2"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Buckler.Activate"
+                "Target"        "CASTER"
+            }
+
+            "AttachEffect"
+            {
+                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
+                "Target"        "CASTER"
+                "EffectAttachType"  "attach_hitloc"
+            }
+		}
+	}
+	
+	"item_fire_light_lightningtower"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_lightningtower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+
+		"AbilityCastPoint"				"0"
+		"AbilityGoldCost"				"100"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_buckler.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"MyUpgradeBuilding"
+				"UnitName"		"tower_fire_light_lightning"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Buckler.Activate"
+                "Target"        "CASTER"
+            }
+
+            "AttachEffect"
+            {
+                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
+                "Target"        "CASTER"
+                "EffectAttachType"  "attach_hitloc"
+            }
+		}
+	}
+
+	"item_fire2_light2_zeustower"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_zeustower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+
+		"AbilityCastPoint"				"0"
+		"AbilityGoldCost"				"150"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_buckler.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"MyUpgradeSecondaryBuilding"
+				"UnitName"		"tower_fire2_light2_zeus"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Buckler.Activate"
+                "Target"        "CASTER"
+            }
+		}
+	}
+
+	"item_water_light_speedauratower"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_speedauratower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+
+		"AbilityCastPoint"				"0"
+		"AbilityGoldCost"				"100"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_buckler.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"MyUpgradeBuilding"
+				"UnitName"		"tower_water_light_speedaura"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Buckler.Activate"
+                "Target"        "CASTER"
+            }
+
+            "AttachEffect"
+            {
+                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
+                "Target"        "CASTER"
+                "EffectAttachType"  "attach_hitloc"
+            }
+		}
+	}
+
+	"item_water2_light2_speedauratower2"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_speedauratower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+
+		"AbilityCastPoint"				"0"
+		"AbilityGoldCost"				"150"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_buckler.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"MyUpgradeSecondaryBuilding"
+				"UnitName"		"tower_water2_light2_speedaura2"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Buckler.Activate"
+                "Target"        "CASTER"
+            }
+		}
+	}
+
+	"item_dark_nature_multishot"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_multishottower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+
+		"AbilityCastPoint"				"0"
+		"AbilityGoldCost"				"100"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_buckler.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"MyUpgradeBuilding"
+				"UnitName"		"tower_dark_nature_multishot"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Buckler.Activate"
+                "Target"        "CASTER"
+            }
+
+            "AttachEffect"
+            {
+                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
+                "Target"        "CASTER"
+                "EffectAttachType"  "attach_hitloc"
+            }
+		}
+	}
+
+	"item_dark2_nature2_multishot2"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_medusatower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+
+		"AbilityCastPoint"				"0"
+		"AbilityGoldCost"				"150"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_buckler.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"MyUpgradeSecondaryBuilding"
+				"UnitName"		"tower_dark2_nature2_multishot2"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Buckler.Activate"
+                "Target"        "CASTER"
+            }
+		}
+	}
+
+	"item_fire_dark_nevermore"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_nevermoretower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+
+		"AbilityCastPoint"				"0"
+		"AbilityGoldCost"				"100"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_buckler.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"MyUpgradeBuilding"
+				"UnitName"		"tower_fire_dark_nevermore"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Buckler.Activate"
+                "Target"        "CASTER"
+            }
+
+            "AttachEffect"
+            {
+                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
+                "Target"        "CASTER"
+                "EffectAttachType"  "attach_hitloc"
+            }
+		}
+	}
+
+	"item_fire2_dark2_nevermore2"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_nevermoretower2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+
+		"AbilityCastPoint"				"0"
+		"AbilityGoldCost"				"150"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_buckler.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"MyUpgradeSecondaryBuilding"
+				"UnitName"		"tower_fire2_dark2_nevermore2"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Buckler.Activate"
+                "Target"        "CASTER"
+            }
+		}
+	}
+
+	"item_earth_light_damageaura"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_damageauratower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+
+		"AbilityCastPoint"				"0"
+		"AbilityGoldCost"				"100"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_buckler.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"MyUpgradeBuilding"
+				"UnitName"		"tower_earth_light_damageaura"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Buckler.Activate"
+                "Target"        "CASTER"
+            }
+
+            "AttachEffect"
+            {
+                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
+                "Target"        "CASTER"
+                "EffectAttachType"  "attach_hitloc"
+            }
+		}
+	}
+
+	"item_earth2_light2_damageaura2"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_damageauratower2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+
+		"AbilityCastPoint"				"0"
+		"AbilityGoldCost"				"150"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_buckler.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"MyUpgradeSecondaryBuilding"
+				"UnitName"		"tower_earth2_light2_damageaura2"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Buckler.Activate"
+                "Target"        "CASTER"
+            }
+		}
+	}
+
+	"item_earth_dark_bash"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_bashtower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+
+		"AbilityCastPoint"				"0"
+		"AbilityGoldCost"				"100"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_buckler.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"MyUpgradeBuilding"
+				"UnitName"		"tower_earth_dark_bash"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Buckler.Activate"
+                "Target"        "CASTER"
+            }
+
+            "AttachEffect"
+            {
+                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
+                "Target"        "CASTER"
+                "EffectAttachType"  "attach_hitloc"
+            }
+		}
+	}
+
+	"item_earth2_dark2_bash2"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_timelocktower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+
+		"AbilityCastPoint"				"0"
+		"AbilityGoldCost"				"150"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_buckler.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"MyUpgradeSecondaryBuilding"
+				"UnitName"		"tower_earth2_dark2_bash2"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Buckler.Activate"
+                "Target"        "CASTER"
+            }
+
+            "AttachEffect"
+            {
+                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
+                "Target"        "CASTER"
+                "EffectAttachType"  "attach_hitloc"
+            }
+		}
+	}
+
+	"item_water_dark_poison"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_poisontower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+
+		"AbilityCastPoint"				"0"
+		"AbilityGoldCost"				"100"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_buckler.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"MyUpgradeBuilding"
+				"UnitName"		"tower_water_dark_poison"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Buckler.Activate"
+                "Target"        "CASTER"
+            }
+
+            "AttachEffect"
+            {
+                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
+                "Target"        "CASTER"
+                "EffectAttachType"  "attach_hitloc"
+            }
+		}
+	}
+
+	"item_water2_dark2_poison2"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_venomoustower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+
+		"AbilityCastPoint"				"0"
+		"AbilityGoldCost"				"150"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_buckler.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"MyUpgradeSecondaryBuilding"
+				"UnitName"		"tower_water2_dark2_poison2"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Buckler.Activate"
+                "Target"        "CASTER"
+            }
+
+            "AttachEffect"
+            {
+                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
+                "Target"        "CASTER"
+                "EffectAttachType"  "attach_hitloc"
+            }
+		}
+	}
+
+	"item_fire_nature_sniper"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_snipertower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+
+		"AbilityCastPoint"				"0"
+		"AbilityGoldCost"				"100"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_buckler.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"MyUpgradeBuilding"
+				"UnitName"		"tower_fire_nature_sniper"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Buckler.Activate"
+                "Target"        "CASTER"
+            }
+
+            "AttachEffect"
+            {
+                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
+                "Target"        "CASTER"
+                "EffectAttachType"  "attach_hitloc"
+            }
+		}
+	}
+
+	"item_fire2_nature2_sniper2"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_supersnipertower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+
+		"AbilityCastPoint"				"0"
+		"AbilityGoldCost"				"150"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_buckler.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"MyUpgradeSecondaryBuilding"
+				"UnitName"		"tower_fire2_nature2_sniper2"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Buckler.Activate"
+                "Target"        "CASTER"
+            }
+
+            "AttachEffect"
+            {
+                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
+                "Target"        "CASTER"
+                "EffectAttachType"  "attach_hitloc"
+            }
+		}
+	}
+
+	"item_water_earth_glaive"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_glaivetower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+
+		"AbilityCastPoint"				"0"
+		"AbilityGoldCost"				"100"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_buckler.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"MyUpgradeBuilding"
+				"UnitName"		"tower_water_earth_glaive"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Buckler.Activate"
+                "Target"        "CASTER"
+            }
+
+            "AttachEffect"
+            {
+                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
+                "Target"        "CASTER"
+                "EffectAttachType"  "attach_hitloc"
+            }
+		}
+	}
+
+	"item_water2_earth2_glaive2"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_lunatower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+
+		"AbilityCastPoint"				"0"
+		"AbilityGoldCost"				"150"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_buckler.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"MyUpgradeSecondaryBuilding"
+				"UnitName"		"tower_water2_earth2_glaive2"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Buckler.Activate"
+                "Target"        "CASTER"
+            }
+
+            "AttachEffect"
+            {
+                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
+                "Target"        "CASTER"
+                "EffectAttachType"  "attach_hitloc"
+            }
+		}
+	}
+
+	"item_fire_earth_gold"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_goldtower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+
+		"AbilityCastPoint"				"0"
+		"AbilityGoldCost"				"100"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_buckler.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"MyUpgradeBuilding"
+				"UnitName"		"tower_fire_earth_gold"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Buckler.Activate"
+                "Target"        "CASTER"
+            }
+
+            "AttachEffect"
+            {
+                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
+                "Target"        "CASTER"
+                "EffectAttachType"  "attach_hitloc"
+            }
+		}
+	}
+
+	"item_fire2_earth2_gold2"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_wealthtower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+
+		"AbilityCastPoint"				"0"
+		"AbilityGoldCost"				"150"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_buckler.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"MyUpgradeSecondaryBuilding"
+				"UnitName"		"tower_fire2_earth2_gold2"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Buckler.Activate"
+                "Target"        "CASTER"
+            }
+
+            "AttachEffect"
+            {
+                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
+                "Target"        "CASTER"
+                "EffectAttachType"  "attach_hitloc"
+            }
+		}
+	}
+
+	"item_earth_nature_critical"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_criticaltower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+
+		"AbilityCastPoint"				"0"
+		"AbilityGoldCost"				"100"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_buckler.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"MyUpgradeBuilding"
+				"UnitName"		"tower_earth_nature_critical"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Buckler.Activate"
+                "Target"        "CASTER"
+            }
+
+            "AttachEffect"
+            {
+                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
+                "Target"        "CASTER"
+                "EffectAttachType"  "attach_hitloc"
+            }
+		}
+	}
+
+	"item_earth2_nature2_critical2"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_assassintower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+
+		"AbilityCastPoint"				"0"
+		"AbilityGoldCost"				"150"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_buckler.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"MyUpgradeSecondaryBuilding"
+				"UnitName"		"tower_earth2_nature2_critical2"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Buckler.Activate"
+                "Target"        "CASTER"
+            }
+
+            "AttachEffect"
+            {
+                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
+                "Target"        "CASTER"
+                "EffectAttachType"  "attach_hitloc"
+            }
+		}
+	}
+
+	"item_water_nature_frost"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_frosttower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+
+		"AbilityCastPoint"				"0"
+		"AbilityGoldCost"				"100"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_buckler.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"MyUpgradeBuilding"
+				"UnitName"		"tower_water_nature_frost"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Buckler.Activate"
+                "Target"        "CASTER"
+            }
+
+            "AttachEffect"
+            {
+                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
+                "Target"        "CASTER"
+                "EffectAttachType"  "attach_hitloc"
+            }
+		}
+	}
+
+	"item_water2_nature2_frost2"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_wintertower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+
+		"AbilityCastPoint"				"0"
+		"AbilityGoldCost"				"150"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_buckler.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"MyUpgradeSecondaryBuilding"
+				"UnitName"		"tower_water2_nature2_frost2"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Buckler.Activate"
+                "Target"        "CASTER"
+            }
+
+            "AttachEffect"
+            {
+                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
+                "Target"        "CASTER"
+                "EffectAttachType"  "attach_hitloc"
+            }
+		}
+	}
+
+	"item_light_dark_impetus"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_impetustower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+
+		"AbilityCastPoint"				"0"
+		"AbilityGoldCost"				"100"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_buckler.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"MyUpgradeBuilding"
+				"UnitName"		"tower_light_dark_impetus"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Buckler.Activate"
+                "Target"        "CASTER"
+            }
+
+            "AttachEffect"
+            {
+                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
+                "Target"        "CASTER"
+                "EffectAttachType"  "attach_hitloc"
+            }
+		}
+	}
+
+	"item_light2_dark2_impetus2"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_superimpetustower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+
+		"AbilityCastPoint"				"0"
+		"AbilityGoldCost"				"150"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_buckler.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"MyUpgradeSecondaryBuilding"
+				"UnitName"		"tower_light2_dark2_impetus2"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Buckler.Activate"
+                "Target"        "CASTER"
+            }
+
+            "AttachEffect"
+            {
+                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
+                "Target"        "CASTER"
+                "EffectAttachType"  "attach_hitloc"
+            }
+		}
+	}
+
+	"item_fire_water_decrepify"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_decrepifytower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+
+		"AbilityCastPoint"				"0"
+		"AbilityGoldCost"				"100"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_buckler.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"MyUpgradeBuilding"
+				"UnitName"		"tower_fire_water_decrepify"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Buckler.Activate"
+                "Target"        "CASTER"
+            }
+
+            "AttachEffect"
+            {
+                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
+                "Target"        "CASTER"
+                "EffectAttachType"  "attach_hitloc"
+            }
+		}
+	}
+
+	"item_fire2_water2_decrepify2"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_pugnatower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+
+		"AbilityCastPoint"				"0"
+		"AbilityGoldCost"				"150"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_buckler.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"MyUpgradeSecondaryBuilding"
+				"UnitName"		"tower_fire2_water2_decrepify2"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Buckler.Activate"
+                "Target"        "CASTER"
+            }
+
+            "AttachEffect"
+            {
+                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
+                "Target"        "CASTER"
+                "EffectAttachType"  "attach_hitloc"
+            }
+		}
+	}
+
+	"item_light_nature_life"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_lifetower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+
+		"AbilityCastPoint"				"0"
+		"AbilityGoldCost"				"100"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_buckler.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"MyUpgradeBuilding"
+				"UnitName"		"tower_light_nature_life"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Buckler.Activate"
+                "Target"        "CASTER"
+            }
+
+            "AttachEffect"
+            {
+                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
+                "Target"        "CASTER"
+                "EffectAttachType"  "attach_hitloc"
+            }
+		}
+	}
+
+	"item_light2_nature2_life2"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_healertower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+
+		"AbilityCastPoint"				"0"
+		"AbilityGoldCost"				"150"
+
+		"precache"
+        {
+        "soundfile"         "sounds/items/item_buckler.vsnd"
+        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
+        }
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"MyUpgradeSecondaryBuilding"
+				"UnitName"		"tower_light2_nature2_life2"
+			}
+
+			"FireSound"
+            {
+                "EffectName"    "DOTA_Item.Buckler.Activate"
+                "Target"        "CASTER"
+            }
+
+            "AttachEffect"
+            {
+                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
+                "Target"        "CASTER"
+                "EffectAttachType"  "attach_hitloc"
+            }
+		}
+	}
+
+	"item_apply_modifiers"
+	{
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+		"BaseClass"						"item_datadriven"
+	
+		"precache"
+		{
+			"particle"  "particles/econ/events/ti5/radiant_fountain_regen_lvl2_ti5.vpcf"
+		}
+	
+		"Modifiers"
+		{
+			"modifier_construction"
+			{
+				"IsHidden"				"1"
+				"OnCreated"
+				{
+					"AttachEffect"
+					{
+						"EffectName"        "particles/econ/events/ti5/radiant_fountain_regen_lvl2_ti5.vpcf"
+						"EffectAttachType"  "follow_origin"
+						"Target"            "TARGET"
+						"ControlPoints"
+						{
+							"01"			"0 250 0"
+						}
+					}
+				}
+			}
+			
+			"modifier_builder_hidden"
+			{
+				"IsHidden"				"1"  
+	
+				"States"
+				{
+					"MODIFIER_STATE_NO_UNIT_COLLISION"	"MODIFIER_STATE_VALUE_ENABLED"
+					"MODIFIER_STATE_INVULNERABLE"	"MODIFIER_STATE_VALUE_ENABLED"
+					"MODIFIER_STATE_ROOTED"			"MODIFIER_STATE_VALUE_ENABLED"
+					"MODIFIER_STATE_DISARMED"		"MODIFIER_STATE_VALUE_ENABLED"
+					"MODIFIER_STATE_NOT_ON_MINIMAP"	"MODIFIER_STATE_VALUE_ENABLED"
+					"MODIFIER_STATE_NO_HEALTH_BAR"	"MODIFIER_STATE_VALUE_ENABLED"
+					//"MODIFIER_STATE_COMMAND_RESTRICTED"	"MODIFIER_STATE_VALUE_ENABLED" //Builder can send build orders while inside the building
+					//"MODIFIER_STATE_UNSELECTABLE"	"MODIFIER_STATE_VALUE_ENABLED" //Builder is selectable while inside the building
+				}
+			}
+	
+			"modifier_onfire"
+			{
+				"IsHidden"			"1"
+				"OnCreated"
+				{
+					"AttachEffect"
+					{
+						"EffectName"        "particles/dire_fx/fire_barracks.vpcf"
+						"EffectAttachType"  "follow_origin"
+						"Target"            "TARGET"
+						"ControlPointEntities"
+						{
+							"TARGET"	"attach_fx"
+						}
+					}
+				}
+			}
+		}		
+	}
+	"item_building_cancel"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_cancel"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+		"AbilityCastPoint"				"0"
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"builder.lua"
+				"Function"		"CancelBuilding"
+			}
+		}
+	}
+
+	"item_fire_orb"
+	{
+	    "ID"                            "1100"
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_fireorb"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastPoint"				"0"
+
+		"ItemCost"                      "50"
+
+		"ItemStockMax"                  "0" 
+        "ItemStockInitial"              "0"
+
+		"SideShop"                      "0" 
+        "SecretShop"                    "1"
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"1"
+		"ItemSellable"					"0"
+	}
+
+	"item_fire_orb_2"
+	{
+	    "ID"                            "1100"
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_fireorb_2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastPoint"				"0"
+
+		"ItemCost"                      "50"
+
+		"ItemStockMax"                  "0" 
+        "ItemStockInitial"              "0"
+
+		"SideShop"                      "0" 
+        "SecretShop"                    "1"
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"1"
+		"ItemSellable"					"0"
+	}
+
+	"item_water_orb"
+	{
+	    "ID"                            "1101"
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_waterorb"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastPoint"				"0"
+
+		"ItemCost"                      "50"
+
+		"ItemStockMax"                  "0" 
+        "ItemStockInitial"              "0"
+
+		"SideShop"                      "0" 
+        "SecretShop"                    "1"
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"1"
+		"ItemSellable"					"0"
+	}
+
+	"item_water_orb_2"
+	{
+	    "ID"                            "1101"
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_waterorb_2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastPoint"				"0"
+
+		"ItemCost"                      "50"
+
+		"ItemStockMax"                  "0" 
+        "ItemStockInitial"              "0"
+
+		"SideShop"                      "0" 
+        "SecretShop"                    "1"
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"1"
+		"ItemSellable"					"0"
+	}
+
+	"item_nature_orb"
+	{
+	    "ID"                            "1102"
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_natureorb"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastPoint"				"0"
+	
+		"ItemCost"                      "50"
+
+		"ItemStockMax"                  "0" 
+        "ItemStockInitial"              "0"
+
+		"SideShop"                      "0" 
+        "SecretShop"                    "1"
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"1"
+		"ItemSellable"					"0"
+	}
+
+	"item_nature_orb_2"
+	{
+	    "ID"                            "1102"
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_natureorb_2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastPoint"				"0"
+	
+		"ItemCost"                      "50"
+
+		"ItemStockMax"                  "0" 
+        "ItemStockInitial"              "0"
+
+		"SideShop"                      "0" 
+        "SecretShop"                    "1"
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"1"
+		"ItemSellable"					"0"
+	}
+
+	"item_earth_orb"
+	{
+	    "ID"                            "1103"
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_earthorb"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastPoint"				"0"
+	
+		"ItemCost"                      "50"
+
+		"ItemStockMax"                  "0" 
+        "ItemStockInitial"              "0"
+
+		"SideShop"                      "0" 
+        "SecretShop"                    "1"
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"1"
+		"ItemSellable"					"0"
+	}
+
+	"item_earth_orb_2"
+	{
+	    "ID"                            "1103"
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_earthorb_2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastPoint"				"0"
+	
+		"ItemCost"                      "50"
+
+		"ItemStockMax"                  "0" 
+        "ItemStockInitial"              "0"
+
+		"SideShop"                      "0" 
+        "SecretShop"                    "1"
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"1"
+		"ItemSellable"					"0"
+	}
+
+	"item_light_orb"
+	{
+	    "ID"                            "1104"
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_lightorb"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastPoint"				"0"
+	
+		"ItemCost"                      "50"
+
+		"ItemStockMax"                  "0" 
+        "ItemStockInitial"              "0"
+
+		"SideShop"                      "0" 
+        "SecretShop"                    "1"
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"1"
+		"ItemSellable"					"0"
+	}
+
+	"item_light_orb_2"
+	{
+	    "ID"                            "1104"
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_lightorb_2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastPoint"				"0"
+	
+		"ItemCost"                      "50"
+
+		"ItemStockMax"                  "0" 
+        "ItemStockInitial"              "0"
+
+		"SideShop"                      "0" 
+        "SecretShop"                    "1"
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"1"
+		"ItemSellable"					"0"
+	}
+
+	"item_dark_orb"
+	{
+	    "ID"                            "1105"
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_darkorb"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastPoint"				"0"
+	
+		"ItemCost"                      "50"
+
+		"ItemStockMax"                  "0" 
+        "ItemStockInitial"              "0"
+
+		"SideShop"                      "0" 
+        "SecretShop"                    "1"
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"1"
+		"ItemSellable"					"0"
+	}
+
+	"item_dark_orb_2"
+	{
+	    "ID"                            "1105"
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_darkorb_2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastPoint"				"0"
+	
+		"ItemCost"                      "50"
+
+		"ItemStockMax"                  "0" 
+        "ItemStockInitial"              "0"
+
+		"SideShop"                      "0" 
+        "SecretShop"                    "1"
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"1"
+		"ItemSellable"					"0"
+	}
+
+	"item_build_wall"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_build_wall"
+		"MaxLevel" 						"1"
+	
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+	
+		// BuildingHelper info
+		"Building"						"1" //bool
+		"BuildingSize"					"2" 
+		"BuildTime"						"10.0"
+		"AbilityCastRange"				"200"
+		"UpdateHealth"					"1" //bool
+		"Scale"							"0" //bool
+		"PlayerCanControl"				"1" //bool
+	
+		"UnitName"						"wall"
+		"AbilityCooldown"				"0"
+		"AbilityGoldCost"				"10"
+		// End of BuildingHelper info
+	
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"build_time"			"10.0"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"gold_cost"				"10"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"lumber_cost"			"10"
+			}
+		}
+	
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"builder.lua"
+				"Function"		"Build"
+				"ItemUnitName"  "wall"
+			}
+		}
+	}
+	// All channeled abilities require an item with the same name to be queued
+	// Research abilities set the ability hidden to prevent further queueing. The item re-enables them
+	"item_research_dark_tower"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_research_dark_tower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+		"AbilityCastPoint"				"0"
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/queue.lua"
+				"Function"		"DequeueUnit"
+			}
+	
+			// Re-enable research ability
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/research.lua"
+				"Function"		"ReEnableResearch"
+			}
+		}
+	}
+	
+	"item_research_ultimate_ability"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_research_ultimate_ability"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+		"AbilityCastPoint"				"0"
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/queue.lua"
+				"Function"		"DequeueUnit"
+			}
+	
+			// Re-enable research ability
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/research.lua"
+				"Function"		"ReEnableResearch"
+			}
+		}
+	}
+	
+	"item_train_city_center_tier2"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_train_city_center_tier2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+		"AbilityCastPoint"				"0"
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/queue.lua"
+				"Function"		"DequeueUnit"
+			}
+	
+			// Re-enable abilities
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"CancelUpgrade"
+			}
+	
+			"RemoveModifier"
+			{
+				"ModifierName"	"modifier_building_particle"
+				"Target" 		"CASTER"
+			}
+		}
+	}
+	
+	// Train abilities set all other abilities as hidden to prevent further queueing. The item re-enables them
+	"item_train_tower_tier2"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_train_tower_tier2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+		"AbilityCastPoint"				"0"
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/queue.lua"
+				"Function"		"DequeueUnit"
+			}
+	
+			// Re-enable abilities
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"CancelUpgrade"
+			}
+	
+			"RemoveModifier"
+			{
+				"ModifierName"	"modifier_building_particle"
+				"Target" 		"CASTER"
+			}
+		}
+	}
+
+	// Train abilities set all other abilities as hidden to prevent further queueing. The item re-enables them
+	"item_train_tower_tier3"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_train_tower_tier2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+		"AbilityCastPoint"				"0"
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/queue.lua"
+				"Function"		"DequeueUnit"
+			}
+	
+			// Re-enable abilities
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"CancelUpgrade"
+			}
+	
+			"RemoveModifier"
+			{
+				"ModifierName"	"modifier_building_particle"
+				"Target" 		"CASTER"
+			}
+		}
+	}
+	
+	"item_train_dark_tower"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_train_dark_tower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+		"AbilityCastPoint"				"0"
+	
+		"ItemDroppable" 				"0"
+		"ItemPurchasable" 				"0"
+		"ItemSellable"					"0"
+		
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/queue.lua"
+				"Function"		"DequeueUnit"
+			}
+	
+			// Re-enable abilities
+			"RunScript"
+			{
+				"ScriptFile"	"buildings/upgrades.lua"
+				"Function"		"CancelUpgrade"
+			}
+	
+			"RemoveModifier"
+			{
+				"ModifierName"	"modifier_building_particle"
+				"Target" 		"CASTER"
+			}
+		}
+	}
+}

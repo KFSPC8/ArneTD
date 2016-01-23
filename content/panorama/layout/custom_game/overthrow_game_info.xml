@@ -1,0 +1,41 @@
+<root>
+    <styles>
+        <include src="file://{resources}/styles/dotastyles.css" />
+        <include src="file://{resources}/styles/custom_game/overthrow_game_info.css" />
+    </styles>
+    <Panel class="OverthrowGameInfo">
+        <Panel id="Title">
+            <Label id="TitleName" text="Welcome to Arne TD!" />
+        </Panel>
+        <Panel id="ThroneRow" class="InfoRow">
+            <!--Label id="ThroneText" html="true" text="#overthrow_game_info_throne" /-->
+            <Image id="ThroneImage" src="file://{images}/custom_game/dota2_elementtd.png" />
+        </Panel>
+        <Label id="ObjectiveHeader" class="Header" html="true" text="Objectives:" />
+        <Label id="BriefDescription" text="Clear as many creep waves as you can!" />
+        <!--Label id="HowToPlayHeader" class="Header" html="true" text="#overthrow_game_info_header_how_to_play" /-->
+        <Panel id="CoinsRow" class="InfoRow">
+            <!--Image id="CoinsImage" src="file://{images}/custom_game/game_info/coins.psd" /-->
+            <Label id="CoinsText" html="true" text="Build Elemental Towers using your builder!" />
+        </Panel>
+        <Panel id="ItemsRow" class="InfoRow">
+            <Label id="ItemsText" html="true" text="#darktower" />
+            <Image id="ItemsImage" src="file://{images}/custom_game/build_elemental.png" />
+            <Label id="ItemsText2" html="true" text="#earthtower" />
+            <Label id="ItemsText3" html="true" text="#firetower" />
+            <Label id="ItemsText4" html="true" text="#lighttower" />
+            <Label id="ItemsText5" html="true" text="#naturetower" />
+            <Label id="ItemsText6" html="true" text="#watertower" />
+            <Label id="ItemsText7" html="true" text="Orbs in your possession are shown in your inventory!" />
+            <Image id="ItemsImage2" src="file://{images}/custom_game/elementalorbs_inventory.png" />
+        </Panel>
+        <Label id="TipsHeader" class="Header" html="true" text="Tips:" />
+        <Panel id="TipsRow" class="InfoRow">
+            <Label id="TipText01" class="TipText" html="true" text="#speed_wave_info" />
+            <Label id="TipText02" class="TipText" html="true" text="#regen_wave_info" />
+            <Label id="TipText03" class="TipText" html="true" text="#evasion_wave_info" />
+            <Label id="TipText04" class="TipText" html="true" text="#magicres_wave_info" />
+        </Panel>
+    </Panel>
+</root>
+

@@ -1,0 +1,25 @@
+<root>
+  <styles>
+    <include src="s2r://panorama/styles/dotastyles.vcss_c" />
+    <include src="file://{resources}/styles/custom_game/arne_custom_goldgained.css" />
+  </styles>
+  <scripts>
+    <include src="file://{resources}/scripts/custom_game/arne_custom_goldgained.js" /> 
+  </scripts>
+  <Panel hittest="false" class="BaseHud">
+    <Panel hittest="true" id="Goldgained">
+      <Panel hittest="false"  id="ElementButtonHolder">
+        <Button hittest="true" id="ElementButton"/>
+        <Button hittest="true" id="ElementButton2"/>
+      </Panel>
+      <Panel hittest="false" id="ResourceLumber" class="resource">
+        <Label id="Lumber"  text="Gold tower earnings:" class="label"/>
+        <Label id="GoldValue" text="0" class="value"/>
+      </Panel>
+      <Panel hittest="false"  id="Secondary">
+        <!--Panel hittest="false"  id="Divider"/-->
+      </Panel>
+    </Panel>
+    <Label id="LumberDisplay" text="+1 Lumber"/>
+  </Panel>
+</root>

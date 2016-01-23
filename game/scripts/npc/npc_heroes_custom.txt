@@ -1,0 +1,92 @@
+"DOTAHeroes"
+{
+	"npc_dota_hero_kunkka"
+	{
+		"override_hero"				"npc_dota_hero_kunkka"
+	
+		"UnitLabel"					"builder"
+	
+		"AbilityLayout"				"5"
+		"Ability1" 					"build_tower"
+		"Ability2" 					"build_cannontower"
+		"Ability3"					"queenofpain_blink_datadriven"
+		"Ability4" 					"builder_guardian_angel_passive"
+		"Ability5" 					"open_page_elemental"
+		"Ability6" 					""
+		"Ability7"					""
+		"Ability8"					""
+		"Ability9"					""
+		"Ability10"					""
+	
+		"AttackCapabilities"        "DOTA_UNIT_CAP_NO_ATTACK"
+	    "AttackDamageMin"           "0"
+	    "AttackDamageMax"           "0"
+	    "ArmorPhysical"             "0"
+	    "MagicalResistance"         "0"
+
+	    "StatusHealth"                "50"                          // Base health.
+        "StatusHealthRegen"           "0.0"                          // Health regeneration rate.
+			
+	    "Level"                     "1"
+	    "VisionDaytimeRange"        "6500" 
+		"VisionNighttimeRange"		"6500"		   				  	 // Range of vision at night time.
+	    "MovementSpeed"             "425"                            // Speed
+	    "MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_FLY"
+	
+	    "HasInventory"              "1"
+
+	    "BoundsHullName"            "DOTA_HULL_SIZE_SMALL"           // Collision size
+	
+	    "AttributeBaseStrength"     "0"
+	    "AttributeStrengthGain"     "0"
+	    "AttributeBaseIntelligence" "0"
+	    "AttributeIntelligenceGain" "0"
+	    "AttributeBaseAgility"      "0"
+	    "AttributeAgilityGain"      "0"
+	}
+
+	"npc_dota_hero_antimage"
+	{
+		"override_hero"				"npc_dota_hero_antimage"
+	
+		"UnitLabel"					"builder"
+	
+		"AbilityLayout"				"5"
+		"Ability1" 					"build_tower"
+		"Ability2" 					"build_cannontower"
+		"Ability3"					"queenofpain_blink_datadriven"
+		"Ability4" 					"builder_guardian_angel_passive"
+		"Ability5" 					"open_page_elemental"
+		"Ability6" 					""
+		"Ability7"					""
+		"Ability8"					""
+		"Ability9"					""
+		"Ability10"					""
+	
+		"AttackCapabilities"        "DOTA_UNIT_CAP_NO_ATTACK"
+	    "AttackDamageMin"           "0"
+	    "AttackDamageMax"           "0"
+	    "ArmorPhysical"             "0"
+	    "MagicalResistance"         "0"
+
+	    "StatusHealth"                "50"                          // Base health.
+        "StatusHealthRegen"           "0.0"                          // Health regeneration rate.
+			
+	    "Level"                     "1"
+	    "VisionDaytimeRange"        "6500" 
+		"VisionNighttimeRange"		"6500"		   				  	 // Range of vision at night time.
+	    "MovementSpeed"             "425"                            // Speed
+	    "MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_FLY"
+	
+	    "HasInventory"              "1"
+
+	    "BoundsHullName"            "DOTA_HULL_SIZE_SMALL"           // Collision size
+	
+	    "AttributeBaseStrength"     "0"
+	    "AttributeStrengthGain"     "0"
+	    "AttributeBaseIntelligence" "0"
+	    "AttributeIntelligenceGain" "0"
+	    "AttributeBaseAgility"      "0"
+	    "AttributeAgilityGain"      "0"
+	}
+}

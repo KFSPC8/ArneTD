@@ -1,0 +1,27 @@
+"addon"
+{
+	"addon_game_name"	"Arne TD"
+
+	"DOTA_GoodGuys"   								"Builders"
+	
+	// Error Messages
+	"error_invalid_build_position"			"You can't build there"
+	"error_not_enough_gold"					"Not Enough Gold"
+	"error_not_enough_lumber"				"Not Enough Lumber"
+	"error_full_health"						"Already on full health"
+	"error_queue_full"						"Queue is full"
+	"error_no_orbs"						    "Orbs not found"
+
+	"darktower"                             "<span class='dark'>Dark Tower</span> - Slow attack but high, long range damage."
+	"earthtower"                             "<span class='earth'>Earth Tower</span> - Average speed, large splash damage."
+	"firetower"                             "<span class='fire'>Fire Tower</span> - Fast attack, low range medium splash damage."
+	"lighttower"                             "<span class='light'>Light Tower</span> - Fast speed, long range single target damage."
+	"naturetower"                             "<span class='nature'>Nature Tower</span> - Fast speed, medium range, pretty good damage."
+	"watertower"                             "<span class='water'>Water Tower</span> - Very fast speed, good range with small splash."
+
+	"speed_wave_info"                             "- Waves 5, 15, 25, 35 are <span class='orangebold'>Speed</span> Waves! (Move 40% Faster)"
+	"regen_wave_info"                             "- Waves 7, 17, 27, 37 are <span class='orangebold'>Regeneration</span> Waves! (Regenerate 8% of Max HP)"
+	"evasion_wave_info"                             "- Waves 8, 18, 28, 38 are <span class='orangebold'>Evasion</span> Waves! (30% Evasion)"
+	"magicres_wave_info"                             "- Waves 9, 19, 29, 39 are <span class='orangebold'>Magic Resistant</span> Waves! (75% Magic Resistance)"
+
+}

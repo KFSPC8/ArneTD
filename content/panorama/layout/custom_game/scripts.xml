@@ -1,0 +1,19 @@
+<root>
+	<scripts>
+		<include src="file://{resources}/scripts/unit_selection.js" />
+		<include src="file://{resources}/scripts/clicks.js" />
+		<include src="file://{resources}/scripts/building_helper.js" />
+	</scripts>
+	<script>
+		$.Msg( "Compiled Panorama Scripts!" );
+		
+		// Disable shop,courier,quickbuy,glyph HUD
+		GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_INVENTORY_SHOP, false );
+		GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_INVENTORY_QUICKBUY, false );
+		GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_INVENTORY_COURIER, false );
+		GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_INVENTORY_PROTECT, false );
+	</script>
+	<Panel>
+		<!-- (Panel hierarchy goes here.) -->
+	</Panel>
+</root>

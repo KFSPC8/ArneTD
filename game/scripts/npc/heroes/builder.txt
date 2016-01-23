@@ -1,0 +1,35 @@
+"npc_dota_hero_kunkka"
+{
+	"override_hero"				"npc_dota_hero_kunkka"
+
+	"UnitLabel"					"builder"
+
+	"AbilityLayout"				"6"
+	"Ability1" 					"build_tower"
+	"Ability2" 					""
+	"Ability3" 					""
+	"Ability4" 					""
+	"Ability5"					""
+	"Ability6" 					""
+
+	"AttackCapabilities"        "DOTA_UNIT_CAP_NO_ATTACK"
+    "AttackDamageMin"           "0"
+    "AttackDamageMax"           "0"
+    "ArmorPhysical"             "0"
+    "MagicalResistance"         "0"
+		
+    "Level"                     "1"
+    "VisionDaytimeRange"        "3600" 
+	"VisionNighttimeRange"		"3600"							// Range of vision at night time.
+	"MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_FLY"
+    "MovementSpeed"             "425"                          // Speed
+
+    "HasInventory"              "0"
+
+    "AttributeBaseStrength"     "0"
+    "AttributeStrengthGain"     "0"
+    "AttributeBaseIntelligence" "0"
+    "AttributeIntelligenceGain" "0"
+    "AttributeBaseAgility"      "0"
+    "AttributeAgilityGain"      "0"
+}
