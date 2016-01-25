@@ -37,11 +37,21 @@ function Build( event )
 
     -- Makes a building dummy and starts panorama ghosting
     BuildingHelper:AddBuilding(event)
-
+ 
     -- Additional checks to confirm a valid building position can be performed here
     event:OnPreConstruction(function(vPos)
         return true
     end)
+  
+    --[[ Disbled height check
+    event:OnPreConstruction(function(vPos)
+        if not BuildingHelper:MeetsHeightCondition(vPos) then
+            SendErrorMessage(playerID, "#error_invalid_build_position")
+            return false
+        end
+
+        return true
+    end) ]]
 
     -- Position for a building was confirmed and valid
     event:OnBuildingPosChosen(function(vPos)
