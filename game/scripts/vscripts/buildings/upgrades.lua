@@ -173,6 +173,9 @@ function MyUpgradeBuilding( event )
 	building:SetAngles(0, -angle.y, 0)
 
 	caster:RemoveSelf()
+
+	-- Set the unit's movement to none to prevent towers from stopping their attack 
+    building:SetMoveCapability(0)
     
     -- Toggle Impetus Tower autocast
     if new_unit == "tower_light_dark_impetus" then
@@ -412,6 +415,9 @@ function PlaceUpgradedBuilding(building,player,new_unit,position,caster,angle,bl
 
 	building.blockers = blockers
     building:SetAngles(0, -angle.y, 0)
+
+    -- Set the unit's movement to none to prevent towers from stopping their attack 
+    building:SetMoveCapability(0)
 
     caster:RemoveSelf()
 

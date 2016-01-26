@@ -103,6 +103,9 @@ function Build( event )
         unit.original_attack = unit:GetAttackCapability()
         unit:SetAttackCapability(DOTA_UNIT_CAP_NO_ATTACK)
 
+        -- Set the unit's movement to none to prevent towers from stopping their attack 
+        unit:SetMoveCapability(0)
+
         -- Give item to cancel
         local item = CreateItem("item_building_cancel", playersHero, playersHero)
         unit:AddItem(item)
