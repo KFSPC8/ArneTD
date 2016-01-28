@@ -52,7 +52,6 @@
 		"precache"
         {
         "soundfile"         "sounds/items/item_buckler.vsnd"
-        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
         }
 	
 		"ItemDroppable" 				"0"
@@ -73,13 +72,6 @@
                 "EffectName"    "DOTA_Item.Buckler.Activate"
                 "Target"        "CASTER"
             }
-
-            "AttachEffect"
-            {
-                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
-                "Target"        "CASTER"
-                "EffectAttachType"  "attach_hitloc"
-            }
 		}
 	}
 
@@ -95,7 +87,6 @@
 		"precache"
         {
         "soundfile"         "sounds/items/item_buckler.vsnd"
-        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
         }
 	
 		"ItemDroppable" 				"0"
@@ -116,13 +107,6 @@
                 "EffectName"    "DOTA_Item.Buckler.Activate"
                 "Target"        "CASTER"
             }
-
-            "AttachEffect"
-            {
-                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
-                "Target"        "CASTER"
-                "EffectAttachType"  "attach_hitloc"
-            }
 		}
 	}
 	
@@ -138,7 +122,6 @@
 		"precache"
         {
         "soundfile"         "sounds/items/item_buckler.vsnd"
-        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
         }
 	
 		"ItemDroppable" 				"0"
@@ -159,13 +142,6 @@
                 "EffectName"    "DOTA_Item.Buckler.Activate"
                 "Target"        "CASTER"
             }
-
-            "AttachEffect"
-            {
-                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
-                "Target"        "CASTER"
-                "EffectAttachType"  "attach_hitloc"
-            }
 		}
 	}
 
@@ -181,7 +157,6 @@
 		"precache"
         {
         "soundfile"         "sounds/items/item_buckler.vsnd"
-        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
         }
 	
 		"ItemDroppable" 				"0"
@@ -217,7 +192,6 @@
 		"precache"
         {
         "soundfile"         "sounds/items/item_buckler.vsnd"
-        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
         }
 	
 		"ItemDroppable" 				"0"
@@ -238,13 +212,6 @@
                 "EffectName"    "DOTA_Item.Buckler.Activate"
                 "Target"        "CASTER"
             }
-
-            "AttachEffect"
-            {
-                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
-                "Target"        "CASTER"
-                "EffectAttachType"  "attach_hitloc"
-            }
 		}
 	}
 
@@ -260,7 +227,6 @@
 		"precache"
         {
         "soundfile"         "sounds/items/item_buckler.vsnd"
-        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
         }
 	
 		"ItemDroppable" 				"0"
@@ -296,7 +262,6 @@
 		"precache"
         {
         "soundfile"         "sounds/items/item_buckler.vsnd"
-        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
         }
 	
 		"ItemDroppable" 				"0"
@@ -317,13 +282,6 @@
                 "EffectName"    "DOTA_Item.Buckler.Activate"
                 "Target"        "CASTER"
             }
-
-            "AttachEffect"
-            {
-                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
-                "Target"        "CASTER"
-                "EffectAttachType"  "attach_hitloc"
-            }
 		}
 	}
 
@@ -339,7 +297,6 @@
 		"precache"
         {
         "soundfile"         "sounds/items/item_buckler.vsnd"
-        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
         }
 	
 		"ItemDroppable" 				"0"
@@ -375,7 +332,6 @@
 		"precache"
         {
         "soundfile"         "sounds/items/item_buckler.vsnd"
-        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
         }
 	
 		"ItemDroppable" 				"0"
@@ -396,13 +352,6 @@
                 "EffectName"    "DOTA_Item.Buckler.Activate"
                 "Target"        "CASTER"
             }
-
-            "AttachEffect"
-            {
-                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
-                "Target"        "CASTER"
-                "EffectAttachType"  "attach_hitloc"
-            }
 		}
 	}
 
@@ -418,7 +367,6 @@
 		"precache"
         {
         "soundfile"         "sounds/items/item_buckler.vsnd"
-        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
         }
 	
 		"ItemDroppable" 				"0"
@@ -454,7 +402,6 @@
 		"precache"
         {
         "soundfile"         "sounds/items/item_buckler.vsnd"
-        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
         }
 	
 		"ItemDroppable" 				"0"
@@ -475,13 +422,6 @@
                 "EffectName"    "DOTA_Item.Buckler.Activate"
                 "Target"        "CASTER"
             }
-
-            "AttachEffect"
-            {
-                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
-                "Target"        "CASTER"
-                "EffectAttachType"  "attach_hitloc"
-            }
 		}
 	}
 
@@ -497,7 +437,6 @@
 		"precache"
         {
         "soundfile"         "sounds/items/item_buckler.vsnd"
-        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
         }
 	
 		"ItemDroppable" 				"0"
@@ -533,7 +472,6 @@
 		"precache"
         {
         "soundfile"         "sounds/items/item_buckler.vsnd"
-        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
         }
 	
 		"ItemDroppable" 				"0"
@@ -554,13 +492,6 @@
                 "EffectName"    "DOTA_Item.Buckler.Activate"
                 "Target"        "CASTER"
             }
-
-            "AttachEffect"
-            {
-                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
-                "Target"        "CASTER"
-                "EffectAttachType"  "attach_hitloc"
-            }
 		}
 	}
 
@@ -576,7 +507,6 @@
 		"precache"
         {
         "soundfile"         "sounds/items/item_buckler.vsnd"
-        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
         }
 	
 		"ItemDroppable" 				"0"
@@ -597,13 +527,6 @@
                 "EffectName"    "DOTA_Item.Buckler.Activate"
                 "Target"        "CASTER"
             }
-
-            "AttachEffect"
-            {
-                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
-                "Target"        "CASTER"
-                "EffectAttachType"  "attach_hitloc"
-            }
 		}
 	}
 
@@ -619,7 +542,6 @@
 		"precache"
         {
         "soundfile"         "sounds/items/item_buckler.vsnd"
-        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
         }
 	
 		"ItemDroppable" 				"0"
@@ -640,13 +562,6 @@
                 "EffectName"    "DOTA_Item.Buckler.Activate"
                 "Target"        "CASTER"
             }
-
-            "AttachEffect"
-            {
-                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
-                "Target"        "CASTER"
-                "EffectAttachType"  "attach_hitloc"
-            }
 		}
 	}
 
@@ -662,7 +577,6 @@
 		"precache"
         {
         "soundfile"         "sounds/items/item_buckler.vsnd"
-        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
         }
 	
 		"ItemDroppable" 				"0"
@@ -683,13 +597,6 @@
                 "EffectName"    "DOTA_Item.Buckler.Activate"
                 "Target"        "CASTER"
             }
-
-            "AttachEffect"
-            {
-                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
-                "Target"        "CASTER"
-                "EffectAttachType"  "attach_hitloc"
-            }
 		}
 	}
 
@@ -705,7 +612,6 @@
 		"precache"
         {
         "soundfile"         "sounds/items/item_buckler.vsnd"
-        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
         }
 	
 		"ItemDroppable" 				"0"
@@ -726,13 +632,6 @@
                 "EffectName"    "DOTA_Item.Buckler.Activate"
                 "Target"        "CASTER"
             }
-
-            "AttachEffect"
-            {
-                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
-                "Target"        "CASTER"
-                "EffectAttachType"  "attach_hitloc"
-            }
 		}
 	}
 
@@ -748,7 +647,6 @@
 		"precache"
         {
         "soundfile"         "sounds/items/item_buckler.vsnd"
-        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
         }
 	
 		"ItemDroppable" 				"0"
@@ -769,13 +667,6 @@
                 "EffectName"    "DOTA_Item.Buckler.Activate"
                 "Target"        "CASTER"
             }
-
-            "AttachEffect"
-            {
-                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
-                "Target"        "CASTER"
-                "EffectAttachType"  "attach_hitloc"
-            }
 		}
 	}
 
@@ -791,7 +682,6 @@
 		"precache"
         {
         "soundfile"         "sounds/items/item_buckler.vsnd"
-        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
         }
 	
 		"ItemDroppable" 				"0"
@@ -812,13 +702,6 @@
                 "EffectName"    "DOTA_Item.Buckler.Activate"
                 "Target"        "CASTER"
             }
-
-            "AttachEffect"
-            {
-                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
-                "Target"        "CASTER"
-                "EffectAttachType"  "attach_hitloc"
-            }
 		}
 	}
 
@@ -834,7 +717,6 @@
 		"precache"
         {
         "soundfile"         "sounds/items/item_buckler.vsnd"
-        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
         }
 	
 		"ItemDroppable" 				"0"
@@ -855,13 +737,6 @@
                 "EffectName"    "DOTA_Item.Buckler.Activate"
                 "Target"        "CASTER"
             }
-
-            "AttachEffect"
-            {
-                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
-                "Target"        "CASTER"
-                "EffectAttachType"  "attach_hitloc"
-            }
 		}
 	}
 
@@ -877,7 +752,6 @@
 		"precache"
         {
         "soundfile"         "sounds/items/item_buckler.vsnd"
-        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
         }
 	
 		"ItemDroppable" 				"0"
@@ -898,13 +772,6 @@
                 "EffectName"    "DOTA_Item.Buckler.Activate"
                 "Target"        "CASTER"
             }
-
-            "AttachEffect"
-            {
-                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
-                "Target"        "CASTER"
-                "EffectAttachType"  "attach_hitloc"
-            }
 		}
 	}
 
@@ -920,7 +787,6 @@
 		"precache"
         {
         "soundfile"         "sounds/items/item_buckler.vsnd"
-        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
         }
 	
 		"ItemDroppable" 				"0"
@@ -941,13 +807,6 @@
                 "EffectName"    "DOTA_Item.Buckler.Activate"
                 "Target"        "CASTER"
             }
-
-            "AttachEffect"
-            {
-                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
-                "Target"        "CASTER"
-                "EffectAttachType"  "attach_hitloc"
-            }
 		}
 	}
 
@@ -963,7 +822,6 @@
 		"precache"
         {
         "soundfile"         "sounds/items/item_buckler.vsnd"
-        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
         }
 	
 		"ItemDroppable" 				"0"
@@ -984,13 +842,6 @@
                 "EffectName"    "DOTA_Item.Buckler.Activate"
                 "Target"        "CASTER"
             }
-
-            "AttachEffect"
-            {
-                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
-                "Target"        "CASTER"
-                "EffectAttachType"  "attach_hitloc"
-            }
 		}
 	}
 
@@ -1006,7 +857,6 @@
 		"precache"
         {
         "soundfile"         "sounds/items/item_buckler.vsnd"
-        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
         }
 	
 		"ItemDroppable" 				"0"
@@ -1027,13 +877,6 @@
                 "EffectName"    "DOTA_Item.Buckler.Activate"
                 "Target"        "CASTER"
             }
-
-            "AttachEffect"
-            {
-                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
-                "Target"        "CASTER"
-                "EffectAttachType"  "attach_hitloc"
-            }
 		}
 	}
 
@@ -1049,7 +892,6 @@
 		"precache"
         {
         "soundfile"         "sounds/items/item_buckler.vsnd"
-        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
         }
 	
 		"ItemDroppable" 				"0"
@@ -1070,13 +912,6 @@
                 "EffectName"    "DOTA_Item.Buckler.Activate"
                 "Target"        "CASTER"
             }
-
-            "AttachEffect"
-            {
-                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
-                "Target"        "CASTER"
-                "EffectAttachType"  "attach_hitloc"
-            }
 		}
 	}
 
@@ -1092,7 +927,6 @@
 		"precache"
         {
         "soundfile"         "sounds/items/item_buckler.vsnd"
-        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
         }
 	
 		"ItemDroppable" 				"0"
@@ -1113,13 +947,6 @@
                 "EffectName"    "DOTA_Item.Buckler.Activate"
                 "Target"        "CASTER"
             }
-
-            "AttachEffect"
-            {
-                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
-                "Target"        "CASTER"
-                "EffectAttachType"  "attach_hitloc"
-            }
 		}
 	}
 
@@ -1135,7 +962,6 @@
 		"precache"
         {
         "soundfile"         "sounds/items/item_buckler.vsnd"
-        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
         }
 	
 		"ItemDroppable" 				"0"
@@ -1156,13 +982,6 @@
                 "EffectName"    "DOTA_Item.Buckler.Activate"
                 "Target"        "CASTER"
             }
-
-            "AttachEffect"
-            {
-                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
-                "Target"        "CASTER"
-                "EffectAttachType"  "attach_hitloc"
-            }
 		}
 	}
 
@@ -1178,7 +997,6 @@
 		"precache"
         {
         "soundfile"         "sounds/items/item_buckler.vsnd"
-        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
         }
 	
 		"ItemDroppable" 				"0"
@@ -1199,13 +1017,6 @@
                 "EffectName"    "DOTA_Item.Buckler.Activate"
                 "Target"        "CASTER"
             }
-
-            "AttachEffect"
-            {
-                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
-                "Target"        "CASTER"
-                "EffectAttachType"  "attach_hitloc"
-            }
 		}
 	}
 
@@ -1221,7 +1032,6 @@
 		"precache"
         {
         "soundfile"         "sounds/items/item_buckler.vsnd"
-        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
         }
 	
 		"ItemDroppable" 				"0"
@@ -1242,13 +1052,6 @@
                 "EffectName"    "DOTA_Item.Buckler.Activate"
                 "Target"        "CASTER"
             }
-
-            "AttachEffect"
-            {
-                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
-                "Target"        "CASTER"
-                "EffectAttachType"  "attach_hitloc"
-            }
 		}
 	}
 
@@ -1264,7 +1067,6 @@
 		"precache"
         {
         "soundfile"         "sounds/items/item_buckler.vsnd"
-        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
         }
 	
 		"ItemDroppable" 				"0"
@@ -1285,13 +1087,6 @@
                 "EffectName"    "DOTA_Item.Buckler.Activate"
                 "Target"        "CASTER"
             }
-
-            "AttachEffect"
-            {
-                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
-                "Target"        "CASTER"
-                "EffectAttachType"  "attach_hitloc"
-            }
 		}
 	}
 
@@ -1307,7 +1102,6 @@
 		"precache"
         {
         "soundfile"         "sounds/items/item_buckler.vsnd"
-        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
         }
 	
 		"ItemDroppable" 				"0"
@@ -1328,13 +1122,6 @@
                 "EffectName"    "DOTA_Item.Buckler.Activate"
                 "Target"        "CASTER"
             }
-
-            "AttachEffect"
-            {
-                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
-                "Target"        "CASTER"
-                "EffectAttachType"  "attach_hitloc"
-            }
 		}
 	}
 
@@ -1350,7 +1137,6 @@
 		"precache"
         {
         "soundfile"         "sounds/items/item_buckler.vsnd"
-        "particle"          "particles/items2_fx/hand_of_midas_radial.vpcf"
         }
 	
 		"ItemDroppable" 				"0"
@@ -1370,13 +1156,6 @@
             {
                 "EffectName"    "DOTA_Item.Buckler.Activate"
                 "Target"        "CASTER"
-            }
-
-            "AttachEffect"
-            {
-                "EffectName"    "particles/items2_fx/hand_of_midas_radial.vpcf"
-                "Target"        "CASTER"
-                "EffectAttachType"  "attach_hitloc"
             }
 		}
 	}

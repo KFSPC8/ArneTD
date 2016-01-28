@@ -120,8 +120,6 @@ function CancelUpgrade( event )
 		ability:SetHidden(false)		
 	end
 
-
-
 	local upgrade_modifier = caster.upgrade_modifier
 	if upgrade_modifier and caster:HasModifier(upgrade_modifier) then
 		caster:RemoveModifierByName(upgrade_modifier)
@@ -130,17 +128,6 @@ function CancelUpgrade( event )
 	local hero = caster:GetPlayerOwner():GetAssignedHero()
 	local playerID = hero:GetPlayerID()
 	FireGameEvent( 'ability_values_force_check', { player_ID = playerID })
-
-	--Remove sell ability when upgrade is cancelled
-    --local item = CreateItem("item_sell_building", playersHero, playersHero)
-    --for i=0,5 do
-    --        local item = caster:GetItemInSlot(i)
-    --        if item then
-    --        	if item:GetAbilityName() == "item_sell_building" then
-    --        		item:RemoveSelf()
-    --            end
-    --        end
-    --    end
 
 end
 
