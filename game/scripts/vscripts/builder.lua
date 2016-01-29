@@ -3,33 +3,10 @@ function Build( event )
     local caster = event.caster
     local ability = event.ability
     local ability_name = ability:GetAbilityName()
-    local AbilityKV = BuildingHelper.AbilityKV
-    local UnitKV = BuildingHelper.UnitKV
-
-    if caster:IsIdle() then
-        caster:Interrupt()
-    end
-
-    -- Handle the name for item-ability build
-    local building_name
-    if event.ItemUnitName then
-        building_name = event.ItemUnitName --Directly passed through the runscript
-    else
-        building_name = AbilityKV[ability_name].UnitName --Building Helper value
-    end
-
-    local construction_size = BuildingHelper:GetConstructionSize(building_name)
-    local construction_radius = construction_size * 64 - 32
-
-    -- Checks if there is enough custom resources to start the building, else stop.
-    local unit_table = UnitKV[building_name]
-    local gold_cost = ability:GetSpecialValueFor("gold_cost")
-    local lumber_cost = ability:GetSpecialValueFor("lumber_cost") --Custom resource
-
+    local building_name = ability:GetAbilityKeyValues()['UnitName']
+    local gold_cost = ability:GetGoldCost(1)
     local hero = caster:IsRealHero() and caster or caster:GetOwner()
     local playerID = hero:GetPlayerID()
-    local player = PlayerResource:GetPlayer(playerID)    
-    local teamNumber = hero:GetTeamNumber()
 
     -- If the ability has an AbilityGoldCost, it's impossible to not have enough gold the first time it's cast
     -- Always refund the gold here, as the building hasn't been placed yet
@@ -40,6 +17,13 @@ function Build( event )
  
     -- Additional checks to confirm a valid building position can be performed here
     event:OnPreConstruction(function(vPos)
+
+        -- If not enough resources to queue, stop
+        if PlayerResource:GetGold(playerID) < gold_cost then
+            SendErrorMessage(playerID, "#error_not_enough_gold")
+            return false
+        end
+
         return true
     end)
   
@@ -107,7 +91,7 @@ function Build( event )
         unit:SetMoveCapability(0)
 
         -- Give item to cancel
-        local item = CreateItem("item_building_cancel", playersHero, playersHero)
+        local item = CreateItem("item_building_cancel", hero, hero)
         unit:AddItem(item)
 
         -- FindClearSpace for the builder
@@ -256,7 +240,7 @@ end
 function CancelBuilding( keys )
     local building = keys.unit
     local hero = building:GetOwner()
-    local playerID = hero:GetPlayerID()
+    local playerID = building:GetPlayerOwnerID()
 
     BuildingHelper:print("CancelBuilding "..building:GetUnitName().." "..building:GetEntityIndex())
 
@@ -269,8 +253,8 @@ function CancelBuilding( keys )
 
     -- Eject builder
     local builder = building.builder_inside
-    if builder then   
-        builder:SetAbsOrigin(building:GetAbsOrigin())
+    if builder then
+        BuildingHelper:ShowBuilder(builder)
     end
 
     building.state = "canceled"

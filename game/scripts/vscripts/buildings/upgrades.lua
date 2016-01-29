@@ -154,12 +154,12 @@ function MyUpgradeBuilding( event )
 	local blockers = caster.blockers
 	local angle = caster:GetAngles()
 
+	caster:RemoveSelf()
+
     -- New building
 	local building = BuildingHelper:PlaceBuilding(player, new_unit, position, 2, 2, 0)
     building.blockers = blockers
 	building:SetAngles(0, -angle.y, 0)
-
-	caster:RemoveSelf()
 
 	-- Set the unit's movement to none to prevent towers from stopping their attack 
     building:SetMoveCapability(0)
@@ -396,7 +396,9 @@ function MyUpgradeSecondaryBuilding( event )
 
 end
 
-function PlaceUpgradedBuilding(building,player,new_unit,position,caster,angle,blockers)
+function PlaceUpgradedBuilding(building, player, new_unit, position, caster, angle, blockers)
+
+    caster:RemoveSelf()
 
 	local building = BuildingHelper:PlaceBuilding(player, new_unit, position, 2, 2, 0)
 
@@ -406,11 +408,9 @@ function PlaceUpgradedBuilding(building,player,new_unit,position,caster,angle,bl
     -- Set the unit's movement to none to prevent towers from stopping their attack 
     building:SetMoveCapability(0)
 
-    caster:RemoveSelf()
-
 end
 
-function FailUpgradeError(hero,caster,ability_gold_cost)
+function FailUpgradeError(hero, caster, ability_gold_cost)
 
 	hero:ModifyGold(ability_gold_cost,false,0)
 	SendErrorMessage(caster:GetPlayerOwnerID(), "#error_no_orbs")
