@@ -405,6 +405,12 @@ function PlaceUpgradedBuilding(building, player, new_unit, position, caster, ang
 	building.blockers = blockers
     building:SetAngles(0, -angle.y, 0)
 
+    -- Toggle Super Impetus Tower autocast
+    if new_unit == "tower_light2_dark2_impetus2" then
+    	local impetus_ability2 = building:FindAbilityByName("enchantress_impetus_custom2")
+    	impetus_ability2:ToggleAutoCast()
+    end
+
     -- Set the unit's movement to none to prevent towers from stopping their attack 
     building:SetMoveCapability(0)
 

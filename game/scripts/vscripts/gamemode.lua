@@ -6,7 +6,7 @@ function MyGameMode:InitGameMode()
 	--GameRules:GetGameModeEntity():SetHUDVisible(6, false)              -- Get Rid of Shop button - Change the UI Layout if you want a shop button
 	--GameRules:GetGameModeEntity():SetHUDVisible(8, false)              --Quickbuy
   --GameRules:GetGameModeEntity():SetHUDVisible(9, false)              --Courier
-  --GameRules:GetGameModeEntity():SetHUDVisible(10, false)              --Glyph
+  --GameRules:GetGameModeEntity():SetHUDVisible(10, false)             --Glyph
 	GameRules:GetGameModeEntity():SetCameraDistanceOverride(1600)
 	GameRules:SetHeroSelectionTime(30.0)                               -- How long should we let people select their hero?
   GameRules:SetPreGameTime(30.0)                                     -- How long after people select their heroes should the horn blow and the game start?
@@ -21,7 +21,7 @@ function MyGameMode:InitGameMode()
   GameRules:GetGameModeEntity():SetRecommendedItemsDisabled(true)
 
 	-- DebugPrint
-	--Convars:RegisterConvar('debug_spew', tostring(DEBUG_SPEW), 'Set to 1 to start spewing debug info. Set to 0 to disable.', 0)
+	-- Convars:RegisterConvar('debug_spew', tostring(DEBUG_SPEW), 'Set to 1 to start spewing debug info. Set to 0 to disable.', 0)
 
 	-- Event Hooks
 	ListenToGameEvent('entity_killed', Dynamic_Wrap(MyGameMode, 'OnEntityKilled'), self)
@@ -29,11 +29,11 @@ function MyGameMode:InitGameMode()
 	ListenToGameEvent('game_rules_state_change', Dynamic_Wrap(MyGameMode, 'OnGameRulesStateChange'), self)
 
 	-- Filters
-    GameRules:GetGameModeEntity():SetExecuteOrderFilter( Dynamic_Wrap(MyGameMode, "FilterExecuteOrder" ), self )
+  GameRules:GetGameModeEntity():SetExecuteOrderFilter( Dynamic_Wrap(MyGameMode, "FilterExecuteOrder" ), self )
 
-    -- Register Listener
-    CustomGameEventManager:RegisterListener( "update_selected_entities", Dynamic_Wrap(MyGameMode, 'OnPlayerSelectedEntities'))
-   	CustomGameEventManager:RegisterListener( "repair_order", Dynamic_Wrap(MyGameMode, "RepairOrder"))  	
+  -- Register Listener
+  CustomGameEventManager:RegisterListener( "update_selected_entities", Dynamic_Wrap(MyGameMode, 'OnPlayerSelectedEntities'))
+  CustomGameEventManager:RegisterListener( "repair_order", Dynamic_Wrap(MyGameMode, "RepairOrder"))  	
 	
 	-- Full units file to get the custom values
 	GameRules.AbilityKV = LoadKeyValues("scripts/npc/npc_abilities_custom.txt")
@@ -104,27 +104,9 @@ function MyGameMode:OnPlayerPickHero(keys)
 	player.upgrades = {} -- This kees the name of all the upgrades researched
 	player.lumber = 0 -- Secondary resource of the player
 
--- Add the hero to the player units list
+  -- Add the hero to the player units list
 	table.insert(player.units, hero)
 	hero.state = "idle" --Builder state
-
-	--[[Spawn some peasants around the hero
-	local position = hero:GetAbsOrigin()
-	local numBuilders = 0
-	local angle = 360/numBuilders
-	for i=1,5 do
-		local rotate_pos = position + Vector(1,0,0) * 100
-		local builder_pos = RotatePosition(position, QAngle(0, angle*i, 0), rotate_pos)
-
-		local builder = CreateUnitByName("peasant", builder_pos, true, hero, hero, hero:GetTeamNumber())
-		builder:SetOwner(hero)
-		builder:SetControllableByPlayer(playerID, true)
-		table.insert(player.units, builder)
-		builder.state = "idle"
-
-		-- Go through the abilities and upgrade
-		CheckAbilityRequirements( builder, player )
-	end ]]--
 
 	-- Give Initial Resources
 	hero:SetGold(150, false)
@@ -476,8 +458,8 @@ function MyGameMode:OnEntityKilled( event )
       })
   end
 
-  -- Remove timer when 500 vaals are killed
-  if vaal_kills == 500 then
+  -- Remove timer when 450 vaals are killed
+  if vaal_kills == 450 then
     print("[ARNE] Removing 5th timer")
     Timers:RemoveTimer("timer_spawn_vaal_5")
 
@@ -494,8 +476,8 @@ function MyGameMode:OnEntityKilled( event )
       })
   end
 
-  -- Remove timer when 650 vaals are killed
-  if vaal_kills == 650 then
+  -- Remove timer when 550 vaals are killed
+  if vaal_kills == 550 then
     print("[ARNE] Removing 6th timer")
     Timers:RemoveTimer("timer_spawn_vaal_6")
 
@@ -512,8 +494,8 @@ function MyGameMode:OnEntityKilled( event )
       })
   end
 
-  -- Remove timer when 800 vaals are killed
-  if vaal_kills == 800 then
+  -- Remove timer when 650 vaals are killed
+  if vaal_kills == 650 then
     print("[ARNE] Removing 7th timer")
     Timers:RemoveTimer("timer_spawn_vaal_7")
 
@@ -530,8 +512,8 @@ function MyGameMode:OnEntityKilled( event )
       })
   end
 
-  -- Remove timer when 1000 vaals are killed
-  if vaal_kills == 1000 then
+  -- Remove timer when 800 vaals are killed
+  if vaal_kills == 800 then
     print("[ARNE] Removing 8th timer")
     Timers:RemoveTimer("timer_spawn_vaal_8")
 
@@ -548,8 +530,8 @@ function MyGameMode:OnEntityKilled( event )
       })
   end
 
-  -- Remove timer when 1200 vaals are killed
-  if vaal_kills == 1200 then
+  -- Remove timer when 1000 vaals are killed
+  if vaal_kills == 1000 then
     print("[ARNE] Removing 9th timer")
     Timers:RemoveTimer("timer_spawn_vaal_9")
 
