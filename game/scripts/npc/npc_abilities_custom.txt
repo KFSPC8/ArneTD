@@ -820,29 +820,35 @@
     }
     }
 
-    //Vaal's First Upgrade
-    "vaal_passive_upgrade1"
+    //Damage Test Magic Immunity
+    "damage_test_repel_passive"
     {
     // General
     //-------------------------------------------------------------------------------------------------------------
     "BaseClass"             "ability_datadriven"
     "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_PASSIVE"
-    "AbilityTextureName"    "sven_warcry"
+    "AbilityTextureName"    "omniknight_repel"
     "MaxLevel"              "1"
+
+    "precache"
+    {
+        "particle"  "particles/units/heroes/hero_omniknight/omniknight_repel_buff.vpcf"
+    }
     
     // Data driven
     //-------------------------------------------------------------------------------------------------------------
     "Modifiers"
     {
-        "modifier_guardian_angel"
+        "modifier_repel_datadriven"
         {
-            "Passive"           "1"
-            "IsPurgable"        "0"
-            "IsHidden"          "0"
-            
-            "Properties"
+            "Passive"       "1"
+            "IsBuff"        "1"
+            "IsPurgable"    "1"
+            "EffectName"        "particles/units/heroes/hero_omniknight/omniknight_repel_buff.vpcf"
+            "EffectAttachType"  "follow_origin"
+            "States"
             {
-                "MODIFIER_PROPERTY_ABSOLUTE_NO_DAMAGE_PHYSICAL" "1"
+                "MODIFIER_STATE_MAGIC_IMMUNE"   "MODIFIER_STATE_VALUE_ENABLED"
             }
         }
     }

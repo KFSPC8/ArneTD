@@ -257,10 +257,10 @@ function MyGameMode:OnEntityKilled( event )
     	round_integers[i] = i
     end
 
-    -- For FINAL BOSS ROUND
     -- For counting number of Vaal kills
     vaal_kills = 0
 
+    -- For FINAL BOSS ROUND
     if killedUnit and (killedUnit:GetUnitName() == "creep_wave" .. 40) and round_finished == 40 then
 
       GameRules:SendCustomMessage("<font color='#ff0000'>Congratulations! You have cleared 40 waves, lets start the final round!</font>", 0, 0)
@@ -372,7 +372,7 @@ function MyGameMode:OnEntityKilled( event )
     MyHero:IncrementKills(1)
     vaal_kills = MyHero:GetKills()
     print("[ARNE] Number of kills is :" .. MyHero:GetKills() )
-    print("[ARNE] vaal kills value is :" .. vaal_kills)
+    -- print("[ARNE] Vaal kills value is :" .. vaal_kills)
     -- GameRules:SendCustomMessage("<font color='#ff0000'>You have killed </font>" .. MyHero:GetKills() .. "<font color='#ff0000'> Vaals</font>", 0, 0)
     ModifyLumber(PlayerResource:GetPlayer(MyPlayerID),vaal_kills)
   else
@@ -548,6 +548,27 @@ function MyGameMode:OnEntityKilled( event )
       })
   end
 
+  -- Transition to Phase 3 when 1200 vaals are killed
+  if vaal_kills == 1200 then
+    print("[ARNE] Removing 10th timer")
+    Timers:RemoveTimer("timer_spawn_vaal_10")
+
+    GameRules:SendCustomMessage("<font color='#ff0000'>Well done! Let's move on to the damage test!</font>", 0, 0)
+    EmitGlobalSound("dsadowski_01.stinger.radiant_win")
+
+    CustomGameEventManager:Send_ServerToAllClients("display_timer", {msg="Damage test in", duration=29, mode=0, endfade=false, position=0, warning=2, paused=false, sound=true} )
+
+    -- 30 second delayed, run once using gametime (respect pauses)
+    Timers:CreateTimer({
+      endTime = 30,
+      callback = function()
+        print("[ARNE] Spawn damage test")
+        local SpawnLocation = Entities:FindByName( nil,"creep_spawn_point")
+        CreateUnitByName( "creep_wave_damage_test", SpawnLocation:GetAbsOrigin(), true, nil, nil, DOTA_TEAM_BADGUYS )
+      end
+    })
+  end
+
   -- Stop all vaal spawns when builder is dead
   if (MyHero:GetHealth() <= 0) then
     Timers:RemoveTimer("timer_spawn_vaal")
@@ -562,9 +583,16 @@ function MyGameMode:OnEntityKilled( event )
     Timers:RemoveTimer("timer_spawn_vaal_10")
   end 
 
+  -- Sets post game if damage test is killed
+  if killedUnit and (killedUnit:GetUnitName() == "creep_wave_damage_test") then
+    GameRules:SetGameWinner(2)
+    EmitGlobalSound("dsadowski_01.stinger.dire_win")
+    print("[ARNE] Game ends now:" .. GameRules:State_Get())
+  end
+
   -- Function for updating vaal kills panorama UI
   function ModifyLumber(playerID, amount)
-    if MyHero:GetHealth() >= 1 then 
+    if MyHero:GetHealth() >= 1 and vaal_kills <= 1200 then 
       CustomGameEventManager:Send_ServerToPlayer( PlayerResource:GetPlayer(MyPlayerID), "etd_update_lumber", { lumber = vaal_kills } )
     end
   end
