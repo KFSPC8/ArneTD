@@ -10,8 +10,8 @@ function MyGameMode:InitGameMode()
 	GameRules:GetGameModeEntity():SetCameraDistanceOverride(1600)
 	GameRules:SetHeroSelectionTime(30.0)                               -- How long should we let people select their hero?
   GameRules:SetPreGameTime(30.0)                                     -- How long after people select their heroes should the horn blow and the game start?
-  GameRules:GetGameModeEntity():SetUseCustomHeroLevels (true)        -- Should we allow heroes to have custom levels?
-  GameRules:GetGameModeEntity():SetCustomHeroMaxLevel (1)            -- What level should we let heroes get to?
+  --GameRules:GetGameModeEntity():SetUseCustomHeroLevels (true)        -- Should we allow heroes to have custom levels?
+  --GameRules:GetGameModeEntity():SetCustomHeroMaxLevel (1)            -- What level should we let heroes get to?
   GameRules:SetGoldTickTime(30)                                      -- How long should we wait in seconds between gold ticks?
   GameRules:SetGoldPerTick(0)                                        -- How much gold should players get per tick?
   GameRules:SetHeroRespawnEnabled(false)                             -- Should we allow the hero to respawn automatically?
